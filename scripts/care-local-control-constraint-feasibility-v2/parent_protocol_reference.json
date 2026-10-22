@@ -1,0 +1,35 @@
+{
+  "schema": "lcc-fa-v1.0",
+  "scope": "2017 source frozen SVM MeanOpposition Top25%, all 200 routed APKs",
+  "labels_used": false,
+  "future_rows_loaded": 0,
+  "model_training_authorized": false,
+  "host_set": "exact frozen C43 callers to selected Role31 endpoint edges, including DEX-defined SDK callers irrespective of external flag; no expansion or filtering",
+  "event_identity": ["APK_SHA256", "DEX_ENTRY_NAME", "DEX_SHA256", "case_preserving_class_descriptor", "case_preserving_method_name_and_descriptor", "invoke_offset_bytes"],
+  "control_definition": "sensitive invoke postdominates at least one conditional successor but not the branch, and at least one other conditional successor cannot reach that invoke",
+  "cfg_scope": "instruction CFG; uncaught potentially throwing instructions have an explicit exceptional-exit successor; catch handlers and reachable cycles are UNKNOWN in v1",
+  "permission_scope": "unique local symbolic checkSelfPermission result, move-result and register moves, equality/inequality against PERMISSION_GRANTED=0, controlling branch and no branch bypass; resolved framework dispatch required",
+  "permission_dispatch": "invoke-super to resolved framework implementation, or final app class this receiver with no app override on the resolved superclass chain; other targets PARTIAL",
+  "unknown_semantics": "UNKNOWN and PARTIAL never become NO_GUARD or a class-direction feature",
+  "maximum_method_instructions": 4096,
+  "maximum_symbolic_state_entries": 300000,
+  "stage1_gate": {
+    "scan_success_rate_min": 0.95,
+    "frozen_host_method_recovery_min": 0.95,
+    "frozen_host_endpoint_edge_recovery_min": 0.90,
+    "aligned_event_cfg_parse_rate_min": 0.60,
+    "aligned_event_unknown_rate_max": 0.40,
+    "verified_control_apk_rate_min": 0.20,
+    "verified_control_event_rate_min": 0.05,
+    "folds_with_control_apk_rate_at_least_0_15_min": 4,
+    "serial_equivalent_scan_wall_seconds_max": 14400,
+    "formal_integrity_pass_required": true
+  },
+  "permission_readiness_separate": {
+    "verified_permission_apk_rate_min": 0.05,
+    "folds_with_verified_permission_min": 4
+  },
+  "on_pass": "permit specification of a separate source-only conditional incremental experiment; never launch training in this package",
+  "on_fail": "stop this version, report all missing/unknown reasons; no threshold relaxation, no class-driven sample removal",
+  "claim_boundary": "proofs concern decoded local program structure under stated DEX/framework contracts; not runtime execution, consent, data purpose or benign/malicious classification"
+}

@@ -1,0 +1,67 @@
+{
+  "status": "NOVELTY_PLAUSIBLE",
+  "stage": "A_LITERATURE_AND_NOVELTY_AUDIT",
+  "audit_date": "2026-10-07",
+  "static_boundary_compliance": "PASS",
+  "initial_broad_formulation": {
+    "status": "NEEDS_REFORMULATION",
+    "reason": "Activation, guard, UI justification, first/third-party attribution, top-level-function responsibility and dependency reachability are already substantially covered by AppContext, FlowCog, AppIntent, AsDroid, AutoPPG, LibRadar/LibScout/MAPS and supply-chain reachability work."
+  },
+  "reformulated_hypothesis": "For multiple first-party contexts that converge on the same shared third-party sensitive Host, treat each nearest first-party-to-third-party call-boundary instance as a separate responsibility unit, preserve its first-party orchestrator/activation/guard/UI/Role/distance context, exclude library identity and raw size, and test whether this instance-level deconvolution supplies abstaining bidirectional marginal evidence for a frozen Stage-I bounded correction.",
+  "decision_basis": [
+    "No checked primary paper was found that simultaneously uses the same shared third-party sensitive Host as a convergence point, deconvolves it by nearest ownership-boundary instance, preserves first-party orchestration context per instance, and applies the evidence to selective bounded correction.",
+    "The surviving distinction is the responsibility unit and deconvolution operation, not the use of activation, guard, UI, ownership, attention or weak supervision by themselves.",
+    "The hypothesis has explicit falsification gates: multi-boundary coverage, exact alignment, identity-zero controls, degree-preserving shuffles, side-specific direction signal and broken control."
+  ],
+  "closest_prior_art": [
+    {
+      "work": "AutoPPG",
+      "conflict": "host/TPL separation, host-TPL information transfer and six execution-context types",
+      "risk": "VERY_HIGH"
+    },
+    {
+      "work": "AsDroid",
+      "conflict": "top-level-function responsibility plus UI semantic mismatch for sensitive behavior",
+      "risk": "VERY_HIGH"
+    },
+    {
+      "work": "AppContext",
+      "conflict": "activation event and environmental guarding factors for sensitive behavior",
+      "risk": "HIGH"
+    },
+    {
+      "work": "FlowCog",
+      "conflict": "UI/control/data semantics that justify a specific information flow",
+      "risk": "HIGH"
+    },
+    {
+      "work": "LibScout/LibRadar/MAPS and dependency reachability",
+      "conflict": "first/third-party attribution, library identification and app-to-dependency reachability",
+      "risk": "MEDIUM_HIGH"
+    }
+  ],
+  "claim_constraints": {
+    "allowed": [
+      "novelty is plausible only for nearest ownership-boundary-instance deconvolution of a shared third-party sensitive Host",
+      "the claim is literature-bounded and remains subject to citation chasing and Stage-B feasibility"
+    ],
+    "forbidden": [
+      "first use of activation, guard or UI context",
+      "first first-party/third-party attribution",
+      "first semantic responsibility analysis",
+      "proven effectiveness or temporal robustness"
+    ]
+  },
+  "next_stage_authorized": "B_STATIC_ASSET_FEASIBILITY_AUDIT_ONLY",
+  "model_implementation_authorized": false,
+  "label_direction_probe_authorized": false,
+  "care_integration_authorized": false,
+  "future_diagnostics_authorized": false,
+  "future_rows_loaded": 0,
+  "later_stage_status": {
+    "stage_B_static_feasibility": "NOT_RUN_PHASE_A_ONLY",
+    "stage_C_information_probe": "NOT_AUTHORIZED_UNTIL_STAGE_B_PASSES",
+    "stage_D_care_integration": "NOT_AUTHORIZED_UNTIL_STAGE_C_PASSES",
+    "future_diagnostics": "NOT_AUTHORIZED"
+  }
+}

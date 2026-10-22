@@ -1,0 +1,3 @@
+# CARE-Droid cross-year layerwise diagnosis v2
+
+Corrects the exploratory v1 decision rule: a near-zero increment from background response columns appended to a Host encoding that already includes them is not evidence that the original background mechanism is redundant. The original v1 output is preserved without modification. Read-only development-set diagnostic. No APK extraction, original-model edits, or formal-model change. Run `run.sh --audit-only` then `run.sh --extract-layers` then `run.sh --run-probes` then `run.sh --collect`. All writes are exclusive in the isolated output directory. A model coordinate system is identified by window and seed; no cross-window vector pooling is permitted.

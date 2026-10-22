@@ -1,0 +1,16 @@
+{
+  "name": "care-sensitive-consequence-slice-v1",
+  "version": "1.0.1",
+  "created": "2026-10-08",
+  "source_only": true,
+  "future_rows_loaded": 0,
+  "requires": [
+    "frozen 2017 formal predictions",
+    "2017 endpoint-centered tensor cache",
+    "frozen A0 C43 attention",
+    "care-contextual-multihop-witness-v1 callsite graph cache"
+  ],
+  "entry_or_root_required": false,
+  "end_to_end_correction_included": false,
+  "interpretation_boundary": "Host-to-effect call reachability and shortest-path projection; not taint, data flow, execution proof, or user-intent proof"
+}

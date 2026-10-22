@@ -1,0 +1,98 @@
+{
+  "package": "care-local-control-constraint-feasibility-v2",
+  "revision": "r1",
+  "files": [
+    {
+      "name": "collect_results.sh",
+      "size_bytes": 451,
+      "sha256": "4152466a68e28105ad25c5e758b0c8acc7c8ef0bbb4ab5f4b78d35000da536cf"
+    },
+    {
+      "name": "common.py",
+      "size_bytes": 7913,
+      "sha256": "05b3da148fd7d6caee03d053bbb7549fdef98f1e906d8dfed6d1c3912849e253"
+    },
+    {
+      "name": "comparison.py",
+      "size_bytes": 2672,
+      "sha256": "eafe51fcb8a297ad9cecc8be84fadfb36244d14e9b3e3bc328f7a61d7d4ee513"
+    },
+    {
+      "name": "control_core.py",
+      "size_bytes": 17024,
+      "sha256": "0d2ecc796a981b611c0fd5fff69a502fd5d6997446bab014b9fd38b941df3239"
+    },
+    {
+      "name": "dex_adapter.py",
+      "size_bytes": 7044,
+      "sha256": "1de0180f64fc5c91317340365bce4b8fc8393eb71adab010bbc750ff16d27b41"
+    },
+    {
+      "name": "integrity.py",
+      "size_bytes": 949,
+      "sha256": "cb03e269072413e65a3f02e7b903f4f6b74415ce727b3d972674f8d932a04d1d"
+    },
+    {
+      "name": "launch_tmux.sh",
+      "size_bytes": 1391,
+      "sha256": "a8194f0f4a9a133d89804d984ec46cd32d483ee4989abbf7a56ce9d3840f5fca"
+    },
+    {
+      "name": "parent_protocol_reference.json",
+      "size_bytes": 2575,
+      "sha256": "148df53037b0dcde749d77cf54c1351686b2d928f90729f236f516453a695970"
+    },
+    {
+      "name": "pipeline.py",
+      "size_bytes": 2500,
+      "sha256": "fb66679ebcfb3853f88834cce472a01a5971b97e49853236a516d179d6612b0b"
+    },
+    {
+      "name": "preflight.py",
+      "size_bytes": 7089,
+      "sha256": "c7ee4d31089758baa3999de0e8898227a5f0c2ce1d2b9cfe2c6e947492989752"
+    },
+    {
+      "name": "protocol.json",
+      "size_bytes": 3459,
+      "sha256": "88a5278368ec269a0119d1ebbe84240f836831d1c905f16317026eae00590a5a"
+    },
+    {
+      "name": "README.md",
+      "size_bytes": 3647,
+      "sha256": "98ef3f4c0c5b56bc44317be24cc032dc46a9e1922e6b8727f2bf44ae03b2c7d2"
+    },
+    {
+      "name": "run_audit.py",
+      "size_bytes": 2827,
+      "sha256": "f12489a76b035ee8d7fff91046ab4e78725d44ed854ce8bccb46be889abffa22"
+    },
+    {
+      "name": "run_on_server.sh",
+      "size_bytes": 635,
+      "sha256": "ab9a7732acba7ccc75dba5f0f919ac6b29b5d463b64f82e988651fe8dec577cc"
+    },
+    {
+      "name": "RUN_V2.md",
+      "size_bytes": 4223,
+      "sha256": "47ec8b8123df9244e3ab70da08c86743e13f67545c079c2375ddbb0529cf0570"
+    },
+    {
+      "name": "scan_one.py",
+      "size_bytes": 9529,
+      "sha256": "d151ccbd331ddccbdbffbc0c43d370cbe9bd0b1b6ae596b0d90e6d3e9912f84a"
+    },
+    {
+      "name": "selftest.py",
+      "size_bytes": 21978,
+      "sha256": "c53951b90707cffe2e5f76755d8c54905082b462b6ed268e67b9f1aaf55ee4cb"
+    },
+    {
+      "name": "summarize.py",
+      "size_bytes": 14358,
+      "sha256": "b5568c1ac19fcdcef16230de970c99cf462c6a609a8ffdbec2aac2d3ceee251a"
+    }
+  ],
+  "local_validation": "35 proof/adapter/scanner/contract tests; 100 acyclic and 200 cyclic oracle graphs; synthetic 799/200 full pipeline, resume, timeout, matched comparison and integrity tests",
+  "real_source_experiment_run_locally": false
+}

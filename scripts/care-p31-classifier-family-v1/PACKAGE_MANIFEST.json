@@ -1,0 +1,9 @@
+{
+  "package": "care-p31-classifier-family-v1",
+  "version": "r1",
+  "created": "2026-10-08",
+  "models": ["LR", "RF", "XGB", "SVM", "MEAN4"],
+  "protocols": ["2017_fixed_oof", "frozen_2017_to_2018_2021", "same_year_fixed_oof"],
+  "formal_stage1_changed": false,
+  "future_used_for_selection": false
+}

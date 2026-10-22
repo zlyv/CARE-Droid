@@ -1,0 +1,39 @@
+{
+  "experiment": "CARE-Droid frozen GraphGlobal query-only future diagnostic v1",
+  "source_year": 2017,
+  "source_n": 799,
+  "router": "DI25",
+  "router_budget": 0.25,
+  "source_routed_n": 200,
+  "candidate": "Q_QUERY_ONLY",
+  "control": "N0_NO_GRAPHGLOBAL",
+  "human_freeze_approved": true,
+  "selection_basis": "Q_QUERY_ONLY had the highest source BA, F1, and net correction; tied minimum broken count; and nonnegative fold-level net versus N0 in all five source folds.",
+  "selection_boundary": "Source paired improvements were not statistically significant and positive BA occurred in only two of five folds. The freeze is a human-approved Pareto development choice, not a significance claim.",
+  "source_metrics": {
+    "N0_NO_GRAPHGLOBAL": {"BA": 0.911093, "AUC": 0.943966, "F1": 0.907672, "fixed": 82, "broken": 9, "net": 73},
+    "Q_QUERY_ONLY": {"BA": 0.917359, "AUC": 0.944192, "F1": 0.914729, "fixed": 87, "broken": 9, "net": 78}
+  },
+  "paired_source": {
+    "n01_Q_fixes_N0": 11,
+    "n10_Q_breaks_N0": 6,
+    "exact_mcnemar_p": 0.332306,
+    "positive_BA_folds": 2,
+    "nonnegative_net_folds": 5
+  },
+  "architecture": {
+    "local_representation": "Host-only",
+    "ego_consumed": false,
+    "role_graph_encoder_inputs": ["role_node", "role_edge"],
+    "graphglobal_to_attention": true,
+    "graphglobal_to_delta_direct": false,
+    "correction_input_width": 113,
+    "parameter_count": 33036,
+    "max_delta_logit": 2.25
+  },
+  "future_years": [2018, 2019, 2020, 2021],
+  "future_expected_counts": {"2018": 793, "2019": 399, "2020": 397, "2021": 400},
+  "future_expected_DI25_routes": {"2018": 198, "2019": 100, "2020": 99, "2021": 100},
+  "future_status": "previously inspected; diagnostic-only; prohibited from revising method, route, budget, representation, bound, seeds, or hyperparameters",
+  "deployment_seeds": [900000, 900001, 900002]
+}

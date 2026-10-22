@@ -1,0 +1,12 @@
+{
+  "package": "care-svm-direct-c43-error-recovery-audit-v1",
+  "revision": "r1",
+  "files": [
+    {"path": "audit.py", "size": 15424, "sha256": "19609de6e9fa713ab8c8404ef513df5ca110cf4261028bd459b68a3d1c720f87"},
+    {"path": "collect_results.sh", "size": 415, "sha256": "dbe8cc2fe086773c37a22e0f85746526ed87b438ca714cae98e06dcda0e7b5a7"},
+    {"path": "launch_tmux.sh", "size": 549, "sha256": "c035fbd52bfd3cfd299391117a95fa5f47947f6455f8a2744202675d73dc6829"},
+    {"path": "README.md", "size": 638, "sha256": "156f1d5f8a0878638a3929fae367e981cdc19d7bbff33bc596c2ef3348b2fc22"},
+    {"path": "run_on_server.sh", "size": 1153, "sha256": "5522f8e9bf4355c801d0e6ef0b01ea528386c99448456077797048c2b015b405"},
+    {"path": "selftest.py", "size": 469, "sha256": "3fad2044a5e70d13044247eba343f9a98a81a094201f2c7a8ca03dd97447697d"}
+  ]
+}

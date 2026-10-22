@@ -1,0 +1,10 @@
+{
+  "name": "care-fp-count-matched-residual-v1",
+  "version": "1.0.0",
+  "created": "2026-10-08",
+  "source_only": true,
+  "future_rows_loaded": 0,
+  "depends_on": "outputs/care-sensitive-consequence-slice-v1",
+  "end_to_end_correction": false,
+  "evaluated_side": "FP-vs-TP among Stage-I predicted-malware"
+}

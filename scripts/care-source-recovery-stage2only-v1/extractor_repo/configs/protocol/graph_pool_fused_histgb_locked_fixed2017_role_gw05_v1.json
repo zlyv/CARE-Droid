@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "protocol_id": "TASA_GRAPH_POOL_FUSED_HISTGB_LOCKED_FIXED2017_ROLE_GW05_V1",
+  "status": "CANDIDATE_LOCKED_NOT_FORMAL",
+  "model": "graph_pool_compact_fused_hist_gradient_boosting",
+  "training_policy": "fixed_train_years_2017",
+  "graph_summary": {
+    "node_statistics": ["mean", "max", "std"],
+    "edge_statistics": ["mean"],
+    "graph_statistics": ["log1p_node_count", "log1p_edge_count"],
+    "include_reliability": true,
+    "graph_weight": 0.5,
+    "role_vocabulary_size": 31,
+    "edge_mode": "all",
+    "summary_mode": "full",
+    "pool_mode": "role_stratified"
+  },
+  "reliability": {
+    "components": ["D", "one_minus_F"],
+    "weights": {"D": 1.0, "one_minus_F": 1.0},
+    "alpha_prior": 1.0,
+    "kappa_support": 20.0,
+    "kappa_context": 20.0,
+    "r_min": 0.1,
+    "r_max": 0.95,
+    "fit_scope": "outer_training_partition_only",
+    "omitted_components": {
+      "T": "not_estimable_with_one_training_year"
+    }
+  },
+  "compact_features": {
+    "schema_source": "feature_schema.json",
+    "audit_columns_excluded": true,
+    "constant_filter_scope": "outer_training_partition_only",
+    "standardization_scope": "outer_training_partition_only"
+  },
+  "classifier": {
+    "type": "hist_gradient_boosting",
+    "learning_rate": 0.05,
+    "max_iter": 300,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 10,
+    "l2_regularization": 1.0,
+    "early_stopping": false,
+    "seeds": [0, 1, 2, 3, 4]
+  },
+  "decision": {
+    "threshold": 0.5,
+    "threshold_selection": "fixed_predeclared",
+    "per_year_threshold_tuning": false
+  },
+  "development_evidence": {
+    "selection_split": "train_2017_early__validate_2017_late",
+    "validation_accuracy": 0.9623,
+    "validation_balanced_accuracy": 0.9627,
+    "validation_auc": 0.9875,
+    "claim_scope": "development_only_not_confirmatory"
+  },
+  "formalization_blockers": [
+    "audited_first_seen_utc_not_joined",
+    "formal_feature_schema_not_locked_for_new_dataset",
+    "tif_predictions_not_available_for_paired_comparison",
+    "legacy_2018_2021_test_years_were_used_during_candidate_development"
+  ]
+}

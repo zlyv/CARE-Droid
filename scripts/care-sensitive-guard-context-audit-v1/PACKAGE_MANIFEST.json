@@ -1,0 +1,21 @@
+{
+  "name": "care-sensitive-guard-context-audit-v1",
+  "version": "1.0.0",
+  "files": [
+    "PACKAGE_MANIFEST.json",
+    "README.md",
+    "audit.py",
+    "collect_results.sh",
+    "common.py",
+    "guard_core.py",
+    "launch_tmux.sh",
+    "preflight.py",
+    "run_on_server.sh",
+    "scan_one.py",
+    "selftest.py"
+  ],
+  "scope": "label-free source-only guard-context coverage pilot",
+  "future_rows_loaded": 0,
+  "labels_used": false,
+  "model_training_authorized": false
+}

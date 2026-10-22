@@ -1,0 +1,19 @@
+{
+  "name": "care-fullgraph-trcbe-v1-r2",
+  "purpose": "Read-only full-graph asset audit, label-free pilot, and gated 200-APK TRCBE coverage materialization",
+  "future_rows_loaded": 0,
+  "uses_git": false,
+  "downloads_or_installs": false,
+  "files": [
+    "README.md",
+    "common.py",
+    "taxonomy.py",
+    "fullgraph.py",
+    "build_one.py",
+    "run_pipeline.py",
+    "selftest.py",
+    "run_on_server.sh",
+    "launch_tmux.sh",
+    "collect_results.sh"
+  ]
+}

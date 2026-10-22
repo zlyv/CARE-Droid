@@ -1,0 +1,47 @@
+{
+  "package": "care-direct-c43-error-attribution-audit-v1",
+  "revision": "r2",
+  "purpose": "source-only error phenotype and evidence attribution audit",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9481,
+      "sha256": "e755442022234efa31cdd1faac474b6310d1496faf557e767e7ee3ffc080caa4"
+    },
+    {
+      "path": "run_audit.py",
+      "bytes": 36909,
+      "sha256": "1a9ea6b26faacb477fabcc51927c70dfb1297bf0b165833696e73e1af1c0b8da"
+    },
+    {
+      "path": "validate_reviews.py",
+      "bytes": 5700,
+      "sha256": "a3e862015ec94333a4a57ef8e66538d2dba9d74aa282d4ee040f90218d2ecfbb"
+    },
+    {
+      "path": "selftest.py",
+      "bytes": 10561,
+      "sha256": "a304652d1c2e9ec4c504277273585e6e5bd65445cf2e1aa37fed4c8460f386bd"
+    },
+    {
+      "path": "run_on_server.sh",
+      "bytes": 1370,
+      "sha256": "38bb7144aed8edbf495e092ed3d4e720496af32067395caaedf5f995d023b276"
+    },
+    {
+      "path": "launch_tmux.sh",
+      "bytes": 939,
+      "sha256": "4afef499cb3b02df86bef812ccd2f86a6969179c264439f29abf577445ec8f90"
+    },
+    {
+      "path": "collect_results.sh",
+      "bytes": 437,
+      "sha256": "4a7dcc410e33b6bf7afe938df9f22e22b4ad5c18c01e3f1b7195a497076d6f5c"
+    },
+    {
+      "path": "collect_review_results.sh",
+      "bytes": 474,
+      "sha256": "c83121bd2de9126749823372f0f70c039ea3f3bb63eeb03eada260d96ad62e1e"
+    }
+  ]
+}

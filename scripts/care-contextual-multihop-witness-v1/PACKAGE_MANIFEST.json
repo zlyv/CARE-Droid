@@ -1,0 +1,9 @@
+{
+  "name": "care-contextual-multihop-witness-v1",
+  "version": "1.0.0",
+  "purpose": "Gated source-only context-sensitive multi-hop direction test followed by frozen future and same-year diagnostics",
+  "future_selection": false,
+  "git_required": false,
+  "formal_method_modified": false,
+  "max_delta": 2.25
+}

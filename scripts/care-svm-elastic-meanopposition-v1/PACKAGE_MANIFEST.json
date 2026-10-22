@@ -1,0 +1,15 @@
+{
+  "package": "care-svm-elastic-meanopposition-v1",
+  "revision": "r1",
+  "files": [
+    {"path": "collect_results.sh", "size": 367, "sha256": "324b57797d88f1c51dd5b581a68b25524f70c54161e920c6b7460858be150336"},
+    {"path": "common.py", "size": 7417, "sha256": "946c802516428f5510151433039c36dca2f99bcf2295a49035bce4d091531694"},
+    {"path": "evaluate.py", "size": 9859, "sha256": "a8ca1208f09e02c840eeca7392d50342da89563d063a617130b40987f62064c7"},
+    {"path": "freeze_policy.py", "size": 4735, "sha256": "8871bb9b6ffb60ba9169a1b63cc97c5f0c627935c06b61ba6971aeb2228e2edd"},
+    {"path": "launch_tmux.sh", "size": 538, "sha256": "7a2584f6556eaab21339ee45e1de143f1f852aea55692d43a5de22dad4ae9c4e"},
+    {"path": "preflight.py", "size": 2627, "sha256": "c18bc99213b7b65f40271e11b63067b4251fc5b04425dd02461a956ac8600f9c"},
+    {"path": "README.md", "size": 693, "sha256": "3a3f00f7c8f11af4d425594e5c61bd7fcaf9ed2312bb88e03c992e6c94732d33"},
+    {"path": "run_on_server.sh", "size": 1267, "sha256": "25dfeb14d138fe95f619622ba06803408a2011d3c0ca0fff3b738c7287ac34f2"},
+    {"path": "selftest.py", "size": 629, "sha256": "f2b46162e6f19db56b96c540ed5b7db85a14f0fdf83a65dcab2f83cb0786243a"}
+  ]
+}

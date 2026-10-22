@@ -1,0 +1,28 @@
+CARE-Droid selective-computation cost audit
+
+Future APKs: 1989
+A25 routed APKs: 497 (24.99%)
+Non-routed APKs: 1492
+All Host/Ego regions: 509583
+Routed Host/Ego regions: 170119 (33.38%)
+Route-first expert APK reduction: 75.01%
+Route-first local-region workload reduction: 66.62%
+Mean regions/APK (all): 256.20
+Mean regions/APK (routed): 342.29
+RGCondAttn trainable parameters: 35740
+FP32 parameter payload: 0.1363 MiB
+
+Implementation audit:
+Expert probabilities on routed rows: 497
+Expert probabilities on non-routed rows: 1492
+Route is applied after expert prediction: True
+Verdict: NOT_YET_REALIZED: evaluation computes the expert before routing
+
+Interpretation:
+The route-first values are achievable workload proxies, not measured wall-clock savings.
+Wall time, peak RAM/VRAM, energy, and raw APK feature-extraction cost must be benchmarked separately.
+
+Source cohort:
+Source APKs: 799
+Source routed: 200 (25.03%)
+Source routed-region ratio: 22.60%

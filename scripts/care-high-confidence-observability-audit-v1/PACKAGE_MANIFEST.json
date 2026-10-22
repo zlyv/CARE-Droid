@@ -1,0 +1,21 @@
+{
+  "name": "care-high-confidence-observability-audit-v1",
+  "version": "1.0.1-r2",
+  "path_discovery": "validated source/future lineage and APK-index reuse; no cohort or protocol change",
+  "scope": "matched 2017-2021 diagnostic observability audit",
+  "model_training": false,
+  "future_labels_used_for_diagnostic_only": true,
+  "files": [
+    "PACKAGE_MANIFEST.json",
+    "README.md",
+    "collect_results.sh",
+    "common.py",
+    "launch_tmux.sh",
+    "preflight.py",
+    "run_audit.py",
+    "run_on_server.sh",
+    "scan_one.py",
+    "select_pairs.py",
+    "selftest.py"
+  ]
+}

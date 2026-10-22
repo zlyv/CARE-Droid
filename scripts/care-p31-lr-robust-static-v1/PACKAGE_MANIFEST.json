@@ -1,0 +1,19 @@
+{
+  "name": "care-p31-lr-robust-static-v1",
+  "created": "2026-10-09",
+  "revision": "r7-L6-only-full-diagnostics",
+  "purpose": "Fold-safe label-free P31 compositional transforms for calibrated LR, with identical DI25/C43 Stage-II, frozen future diagnostics and same-year OOF.",
+  "formal_assets": "read-only",
+  "future_selection": false,
+  "max_delta": 2.25,
+  "threshold": 0.5,
+  "arms": [
+    "L0_RAW",
+    "L1_HELLINGER",
+    "L2_LOG",
+    "L3_PRESENCE",
+    "L4_RAW_PRESENCE",
+    "L5_CLR_PRESENCE",
+    "L6_HELLINGER_PRESENCE"
+  ]
+}

@@ -1,0 +1,78 @@
+version: behavior_role_taxonomy_v2
+
+# IMPORTANT:
+# This file does not replace semantic_mapping_v1.yaml.
+# It only assigns data-flow semantics to the existing semantic roles.
+#
+# sensitive_arguments are placeholders until checked against the
+# exact API signatures in semantic_mapping_v1.yaml.
+
+roles:
+
+  device_identifier_access:
+    flow_types:
+      - source
+    source_value:
+      kind: return
+
+  location_access:
+    flow_types:
+      - source
+    source_value:
+      kind: return
+
+  file_read:
+    flow_types:
+      - source
+    source_value:
+      kind: return
+
+  contacts_access:
+    flow_types:
+      - source
+    source_value:
+      kind: return
+
+  sms_read:
+    flow_types:
+      - source
+    source_value:
+      kind: return
+
+  account_information_access:
+    flow_types:
+      - source
+    source_value:
+      kind: return
+
+  encryption:
+    flow_types:
+      - transform
+
+  encoding:
+    flow_types:
+      - transform
+
+  compression:
+    flow_types:
+      - transform
+
+  network_transmission_or_upload:
+    flow_types:
+      - sink
+    sensitive_arguments: []
+
+  sms_send:
+    flow_types:
+      - sink
+    sensitive_arguments: []
+
+  dynamic_code_loading:
+    flow_types:
+      - sink
+    sensitive_arguments: []
+
+  command_execution:
+    flow_types:
+      - sink
+    sensitive_arguments: []

@@ -1,0 +1,83 @@
+{
+  "package": "care-local-control-constraint-feasibility-v1",
+  "revision": "r1",
+  "files": [
+    {
+      "name": "collect_results.sh",
+      "size_bytes": 429,
+      "sha256": "e1c41a3f5457e06cff29725fa07ca2ab9d624910662224670dfcdc69700f378b"
+    },
+    {
+      "name": "common.py",
+      "size_bytes": 6906,
+      "sha256": "adae316f21b525c64c22f1c264283d23fae8843728e025dd3b0edeedf80ea629"
+    },
+    {
+      "name": "control_core.py",
+      "size_bytes": 12705,
+      "sha256": "917d17454338b6c9694b04a277565bdc4e9d26d26f36e882218371f48ac941f5"
+    },
+    {
+      "name": "dex_adapter.py",
+      "size_bytes": 5472,
+      "sha256": "3505850e31675278020fdb1755f5cb9d8b049d97648393375f34a103bb201bc8"
+    },
+    {
+      "name": "integrity.py",
+      "size_bytes": 949,
+      "sha256": "cb03e269072413e65a3f02e7b903f4f6b74415ce727b3d972674f8d932a04d1d"
+    },
+    {
+      "name": "launch_tmux.sh",
+      "size_bytes": 1225,
+      "sha256": "031f4492b1c7ff617df14a30f5c5f0a1827a39c0ade8e8ab823ecfd50e482b00"
+    },
+    {
+      "name": "pipeline.py",
+      "size_bytes": 2500,
+      "sha256": "cb2e4225b80419d066f997c528915c6642cbfde9ca8355c7bbf961d3421b6fff"
+    },
+    {
+      "name": "preflight.py",
+      "size_bytes": 5610,
+      "sha256": "739527eef0397c63a295600f14c7c2d790445fad7ce4ba21a9209c16cafbec0d"
+    },
+    {
+      "name": "protocol.json",
+      "size_bytes": 2575,
+      "sha256": "148df53037b0dcde749d77cf54c1351686b2d928f90729f236f516453a695970"
+    },
+    {
+      "name": "README.md",
+      "size_bytes": 3362,
+      "sha256": "542d5c239862ae69bc1aaa5ebcdf61e21f790c251213ae0d0a2e281b4fbb0b13"
+    },
+    {
+      "name": "run_audit.py",
+      "size_bytes": 2827,
+      "sha256": "f12489a76b035ee8d7fff91046ab4e78725d44ed854ce8bccb46be889abffa22"
+    },
+    {
+      "name": "run_on_server.sh",
+      "size_bytes": 483,
+      "sha256": "449e00890a6b2505606971dbad598a86d1c7b71abab33f1fe91c6ea0a368ada6"
+    },
+    {
+      "name": "scan_one.py",
+      "size_bytes": 8719,
+      "sha256": "8d3f6725a7f7939d051767d2bebff87dcaab54e0008bd6dcfb81ac503165ce5c"
+    },
+    {
+      "name": "selftest.py",
+      "size_bytes": 14055,
+      "sha256": "8c1df1a264225a156c3f9dd38256a407e6683da11613dc6e37913e8b0a27b33a"
+    },
+    {
+      "name": "summarize.py",
+      "size_bytes": 11632,
+      "sha256": "e23de77315d80d0e1ddbfbd7534e6898469c8e6f394e15b1ea4e4b81c63476cb"
+    }
+  ],
+  "local_validation": "23 proof/adapter/scanner tests, 100 finite-CFG path oracle cases, synthetic 799/200 preflight/coverage/integrity integration",
+  "real_source_experiment_run_locally": false
+}

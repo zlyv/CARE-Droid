@@ -1,0 +1,31 @@
+CARE-Droid Host-only MalBen v2 feature-space contract
+
+host_raw_values:
+  74 dimensions = 72 region statistics + [is_host, is_ego].
+  The current main experiment loads Host rows only.
+
+x_ir^proto:
+  The 74-D raw Host vector after a scaler fitted only on the current outer-train
+  APKs using equal-APK weighting. Role/class K=1 centroids, RMS-Euclidean
+  distance, and the shared tau are computed in this standardized raw space.
+
+LocalEncoder input:
+  78 dimensions = standardized 74-D Host vector + the established four
+  anomaly/background columns. The nine explicit MalBen audit columns do not
+  enter LocalEncoder, which preserves its width and the 33388-parameter model
+  contract.
+
+h_ir:
+  24-D learned LocalEncoder output used by attention, h_critical, z_mal, and
+  z_ben. It is not the space used for prototype distances.
+
+S_ben / S_mal:
+  Computed from RMS-Euclidean distances in x_ir^proto with one common
+  outer-train-only tau for the two class similarities of a region.
+
+z_mal / z_ben:
+  Attention-weighted sums of the learned 24-D h_ir vectors, weighted by
+  max(0, S_mal-S_ben) and max(0, S_ben-S_mal), respectively.
+
+Ego boundary:
+  Ego assets are cached for later ablation but are not model inputs in this run.

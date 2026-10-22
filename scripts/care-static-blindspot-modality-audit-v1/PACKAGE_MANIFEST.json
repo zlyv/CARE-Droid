@@ -1,0 +1,10 @@
+{
+  "package": "care-static-blindspot-modality-audit-v1",
+  "revision": "r1",
+  "scope": "2017-primary and 2018-2021-diagnostic static blind-spot modality audit",
+  "formal_model_changed": false,
+  "formal_dataset_changed": false,
+  "future_used_for_selection": false,
+  "gpu_required": false,
+  "resumable": true
+}

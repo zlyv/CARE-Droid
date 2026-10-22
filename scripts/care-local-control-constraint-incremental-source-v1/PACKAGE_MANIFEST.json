@@ -1,0 +1,149 @@
+{
+  "package": "care-local-control-constraint-incremental-source-v1",
+  "revision": "r1",
+  "files": [
+    {
+      "name": "collect_results.sh",
+      "size_bytes": 621,
+      "sha256": "ae58f1fb26b2ab1b258c752ccf3175bcd1d08be56f87a979101a6eaeee4c9046"
+    },
+    {
+      "name": "common.py",
+      "size_bytes": 6161,
+      "sha256": "aa556d5d09c92966440e35b5b78249c41f5ccf805a287eeceaf33f1a985dfe01"
+    },
+    {
+      "name": "engine/common.py",
+      "size_bytes": 7934,
+      "sha256": "c18a266b632f686365422862c207651e172d84020ba5711401af39993bc7dc4a"
+    },
+    {
+      "name": "engine/comparison.py",
+      "size_bytes": 2672,
+      "sha256": "eafe51fcb8a297ad9cecc8be84fadfb36244d14e9b3e3bc328f7a61d7d4ee513"
+    },
+    {
+      "name": "engine/control_core.py",
+      "size_bytes": 17024,
+      "sha256": "0d2ecc796a981b611c0fd5fff69a502fd5d6997446bab014b9fd38b941df3239"
+    },
+    {
+      "name": "engine/dex_adapter.py",
+      "size_bytes": 7044,
+      "sha256": "1de0180f64fc5c91317340365bce4b8fc8393eb71adab010bbc750ff16d27b41"
+    },
+    {
+      "name": "engine/parent_protocol_reference.json",
+      "size_bytes": 2575,
+      "sha256": "148df53037b0dcde749d77cf54c1351686b2d928f90729f236f516453a695970"
+    },
+    {
+      "name": "engine/protocol.json",
+      "size_bytes": 3459,
+      "sha256": "88a5278368ec269a0119d1ebbe84240f836831d1c905f16317026eae00590a5a"
+    },
+    {
+      "name": "engine/scan_one.py",
+      "size_bytes": 9529,
+      "sha256": "d151ccbd331ddccbdbffbc0c43d370cbe9bd0b1b6ae596b0d90e6d3e9912f84a"
+    },
+    {
+      "name": "engine/selftest.py",
+      "size_bytes": 21978,
+      "sha256": "c53951b90707cffe2e5f76755d8c54905082b462b6ed268e67b9f1aaf55ee4cb"
+    },
+    {
+      "name": "extract_features.py",
+      "size_bytes": 5009,
+      "sha256": "82dda6266f955fe75381ab46e3621791102bea3640c2ce5a8ab1b731eb2f65ea"
+    },
+    {
+      "name": "feature_core.py",
+      "size_bytes": 3059,
+      "sha256": "bb6e7cf2c93fd37aed001aae66ca6a62a1f1cc9f3d2ad343eecfa09b8f9e6f2f"
+    },
+    {
+      "name": "integrity.py",
+      "size_bytes": 905,
+      "sha256": "4dd32464fa6c0ed87eb42c46d77f698e584a46588472e6223db5499d9d6b4022"
+    },
+    {
+      "name": "launch_tmux.sh",
+      "size_bytes": 1390,
+      "sha256": "c6640ecfb0e3e0b5cbabd0427b80483d31ce18ef1f98c164b8473030acf7bfbd"
+    },
+    {
+      "name": "model_core.py",
+      "size_bytes": 2636,
+      "sha256": "977c2af8b6eb9aa3d6811bd4564caa014a3c7b78b1d62d62ef51b93230a0f753"
+    },
+    {
+      "name": "pipeline.py",
+      "size_bytes": 2409,
+      "sha256": "47c5dba8d3685c902db9300cd2dfa32ca0d1ee8a7fc22861b41f0d3d029b2a0f"
+    },
+    {
+      "name": "preflight.py",
+      "size_bytes": 7663,
+      "sha256": "55f1464fda1cc853346825f4c755c20a4a1454d16a0583c71b5dab20283388bf"
+    },
+    {
+      "name": "protocol.json",
+      "size_bytes": 3923,
+      "sha256": "43898ea93a48a5a7a5d414e885407bf27f0f17961c7ada1607d25e7c1f676571"
+    },
+    {
+      "name": "README.md",
+      "size_bytes": 6353,
+      "sha256": "2fcb0dfaebdc1eb82279fcfac8f3c72254f62599c3c1022105f67292f2cc5c1e"
+    },
+    {
+      "name": "run_on_server.sh",
+      "size_bytes": 680,
+      "sha256": "27005333352773dbf758f6ac0934c3848fe114d116be47b8f2f827c36b83e382"
+    },
+    {
+      "name": "run_probe.py",
+      "size_bytes": 4899,
+      "sha256": "4713c1624b7721db8742a2012aee55bf2997eb1787dd97d2e7bd68fdb8f809bb"
+    },
+    {
+      "name": "selftest.py",
+      "size_bytes": 5205,
+      "sha256": "69d3ea23e6c17808a5794483a618c66133df0058848b02a9327adb7e0dc88764"
+    },
+    {
+      "name": "statistics_core.py",
+      "size_bytes": 2581,
+      "sha256": "8a8df874e3cc8072352cb3aa421bbdfafccad8cd0de0f5dfebef7832d412bc6e"
+    },
+    {
+      "name": "summarize.py",
+      "size_bytes": 8981,
+      "sha256": "529eeb6333129b4353e4a815152b227cfc5da455997dec0c374d478c97516043"
+    }
+  ],
+  "validation": {
+    "engine_tests": 35,
+    "incremental_tests": 17,
+    "oracle_graphs": {
+      "acyclic": 100,
+      "cyclic": 200
+    },
+    "full_synthetic_pipeline": "PASS: 799 features, 200 parent reuse, 599 resumes, all outer-train rows, coordinate alignment, no hyperparameter search, null donor constraints, ten paired intervals, un-routed invariance, failed-source no-exclusion and protected-input tamper detection",
+    "synthetic_pipeline_repeats": {
+      "null_repeats": 3,
+      "bootstrap_repeats": 80
+    },
+    "real_protocol_repeats": {
+      "null_repeats": 20,
+      "bootstrap_repeats": 2000
+    },
+    "local_runtime": "Python 3.10.20, NumPy 1.26.4, SciPy 1.15.3, scikit-learn 1.7.2, Androguard 4.1.4",
+    "bash_runtime_available_locally": false,
+    "real_source_experiment_run_locally": false,
+    "remote_server_started": false
+  },
+  "baseline": "original v2 package and passed extractor core unchanged",
+  "future_rows_loaded": 0
+}

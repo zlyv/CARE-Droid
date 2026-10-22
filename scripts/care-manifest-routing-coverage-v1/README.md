@@ -1,0 +1,9 @@
+# Manifest routing coverage only
+
+2017 strict nested OOF plus 2018–2021 frozen diagnosis. Reuse original Manifest RF predictions without altering labels, classifiers or APKs. Add calibrated LR using same 135 Manifest features. Calibrate absolute and dual thresholds using cross-fitted RF predictions generated strictly inside each 2017 training fold. Future thresholds use only full2017 crossfit. Never use pooled outer OOF from other folds to calibrate an outer test fold.
+
+Fixed routes: TOP10/TOP25; ABS10/ABS25 (absolute uncertainty thresholds at source reference fractions); DUAL10/DUAL25 (11 fixed allocations of source routing allowance between prediction sides, selected using training-crossfit error capture); DISAGREE (RF/LR labels differ); ABS10_OR_DISAGREE. Freeze all before future labels are projected to SHA/year/label. No Stage-II scores or classification. No automatic tuning on historical future years.
+
+Main metrics by year/seed: routed count and fraction, captured errors, error recall, routing precision, routed correct APKs, FN/FP coverage, unrouted errors, high-confidence-error coverage and capture gain versus exact same-count uncertainty top-K. Same-count controls are not actual runtime-matched controls. All historical files read-only, hashed before/after. Writes only fresh MRC_OUT under outputs/care_manifest_routing_coverage_v1/run_*. No APK opening, extraction, dependency install, or GPU requirement.
+
+Use run.sh --preflight-only then run.sh --resume in tmux. Cached individual crossfit predictions and frozen rules support resume; partial final tables are never overwritten. Main outputs: routing_yearly_metrics.csv, routing_seed_summary.csv, source_fold_metrics.csv, per_apk_routing.csv, frozen_thresholds.csv, protocol.json, baseline_integrity_check.json, final_report.md, final_decision.json.

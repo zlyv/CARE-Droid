@@ -1,0 +1,12 @@
+{
+  "package": "care-direct-c43-temporal-direction-audit-v1",
+  "revision": "r1",
+  "files": [
+    {"path": "collect_results.sh", "size": 417, "sha256": "0d3b666d3c973ac607443d807f15de93c2e0e074cb6004df9548242d3d0b8b83"},
+    {"path": "launch_tmux.sh", "size": 549, "sha256": "331f68918321afa3bcf3f372a288e11825daf465939299e97b18fd93dacb961f"},
+    {"path": "README.md", "size": 558, "sha256": "b7f9ca207aad4b317cd5b5fc313a37d0076a10116bb7c18dea2d3edd7d376c8d"},
+    {"path": "run_audit.py", "size": 13494, "sha256": "ac2e392c5a8812d397a67ca195fe534320bfb7bccca413638067d06c7776d2f4"},
+    {"path": "run_on_server.sh", "size": 1161, "sha256": "27683ecb4c06af832efb77dd8eadd92e81f25db680300812a59a189094d03912"},
+    {"path": "selftest.py", "size": 443, "sha256": "2e46ec78e7763ed20d415110a6cb7bf03197b087238d819b726fcface8a0dc5f"}
+  ]
+}

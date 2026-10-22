@@ -1,0 +1,18 @@
+{
+  "package": "care-svm-direct-c43-budget-frontier-v1",
+  "revision": "r1",
+  "purpose": "Source-only descriptive budget-response frontier using frozen full-cohort Direct-C43 OOF expert probabilities",
+  "future_rows_loaded": 0,
+  "model_retraining": false,
+  "deployment_budget_selection": false,
+  "files": [
+    {"name": "collect_results.sh", "bytes": 421, "sha256": "f66362448c51eaed665ca55f59db0f9cf481be878d8921ea26a31d0ab501f481"},
+    {"name": "common.py", "bytes": 6819, "sha256": "0195c5dd1622435de1a92765f950a0617b529eaa8d6c274b24546d110c3cd5d2"},
+    {"name": "launch_tmux.sh", "bytes": 920, "sha256": "623ad436ee18f55073f50d400a94c0c919d3242f561bcbc03ddd8268e95e325e"},
+    {"name": "preflight.py", "bytes": 2347, "sha256": "974e5867fb74846833aef59e7bb8d04cd83b0a94900874e465378c46f13981ea"},
+    {"name": "README.md", "bytes": 1301, "sha256": "53a375d5ba8d367604968b16ff6fcb55a58691cc389f53d892559db39bbadf6f"},
+    {"name": "run_frontier.py", "bytes": 11208, "sha256": "c31026bb2bc1fc564283abc706fdcd98fd99222194fd2a3c08e014356c9c9cd6"},
+    {"name": "run_on_server.sh", "bytes": 1227, "sha256": "5df550551e03a158a209d60cb064beaf1bcba0fb45fb46210ceaf9ffe208040e"},
+    {"name": "selftest.py", "bytes": 766, "sha256": "ce5cff510d810d1c11c9cd66e5b917a50c96e6fed555aa0858e1d533e3e3fb65"}
+  ]
+}

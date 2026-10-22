@@ -1,0 +1,20 @@
+{
+  "package": "care-dex-transparent-wrapper-audit-v1",
+  "revision": "r2",
+  "purpose": "30-APK label-free DEX transparent-wrapper feasibility audit",
+  "future_rows_loaded": 0,
+  "model_training_authorized": false,
+  "apk_rewrite_performed": false,
+  "files": [
+    {"name": "audit.py", "bytes": 15706, "sha256": "a79b68e2ca9068490dbe80b220332b9a104638ee558d331efa4ac15f2ec25249"},
+    {"name": "collect_results.sh", "bytes": 413, "sha256": "72c6121760dd7797a75cfdca9669e58a2a24ca359fc4e44613540c4d03cf9979"},
+    {"name": "common.py", "bytes": 10018, "sha256": "3a409a9a8de54b361f8dfddd1e2f44ea2441f78c5cee1a5ebc0ea7a344acaf6a"},
+    {"name": "launch_tmux.sh", "bytes": 1126, "sha256": "17e714fd2d4fa999c8570cf58294c46cc1fb1b80556901b8d312956d57eb68fa"},
+    {"name": "preflight.py", "bytes": 2281, "sha256": "7814688e4dbdd67bcd404bce4b8285ec3d714101ad55d306f1ac0f7bc50fb48a"},
+    {"name": "README.md", "bytes": 2063, "sha256": "a21181d6eb50e7e74efda4f17b76eefca8355da253651e2c58c3c97daef1db8e"},
+    {"name": "run_on_server.sh", "bytes": 1381, "sha256": "a913064ff137cc40a41bb8517e66326ed39fbf79a217df5f08590caf5bee088a"},
+    {"name": "scan_one.py", "bytes": 10329, "sha256": "f81f575e8c3618ff5d7f488a9dbe8ec6ff30c35177c3874c94581657d40acb0d"},
+    {"name": "selftest.py", "bytes": 2355, "sha256": "f73e17d3d40ef82a23bebe9e2215c9afa9f6d712c75a56b52a695834264aacb2"},
+    {"name": "wrapper_core.py", "bytes": 7688, "sha256": "183e9dffce945a42f30490d60ca5294c5b5d9619417a84144f968ff20b6a6dfb"}
+  ]
+}

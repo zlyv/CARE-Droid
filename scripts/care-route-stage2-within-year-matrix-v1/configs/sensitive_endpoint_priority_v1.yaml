@@ -1,0 +1,63 @@
+version: "1.0.0"
+name: "TASA-Droid sensitive endpoint truncation priority"
+principle: "Used only for deterministic graph truncation; never used as a label or direct classifier feature."
+priority_order: "lower_tier_is_higher_priority"
+role_resolution:
+  multiple_roles: "use_minimum_tier"
+  unknown_role: 4
+  unmapped_role: 4
+tiers:
+  0:
+    name: "execution_and_privileged_control"
+    roles:
+      - command_execution
+      - dynamic_code_loading
+      - native_library_loading
+      - reflective_invocation
+      - package_installation
+      - package_uninstallation
+      - device_administration
+      - accessibility_control
+  1:
+    name: "high_impact_sensitive_source_or_sink"
+    roles:
+      - sms_send_receive
+      - call_control_or_recording
+      - account_or_credential_access
+      - contacts_or_calendar_access
+      - device_identifier_access
+      - location_access
+      - microphone_access
+      - camera_access
+      - clipboard_access
+      - network_transmission_or_upload
+      - sensitive_file_or_content_write
+  2:
+    name: "persistence_stealth_and_background_control"
+    roles:
+      - boot_persistence
+      - task_or_alarm_scheduling
+      - background_service_control
+      - overlay_or_ui_deception
+      - icon_or_component_hiding
+      - process_or_wakelock_control
+  3:
+    name: "security_relevant_support"
+    roles:
+      - cryptography
+      - encoding_or_compression
+      - url_or_http_setup
+      - file_read
+      - database_access
+  4:
+    name: "contextual_or_other_api"
+    roles:
+      - other
+truncation_tie_breaker:
+  - "sensitive_target_tier_asc"
+  - "min_hop_asc"
+  - "path_count_desc"
+  - "icc_any_desc"
+  - "reflection_any_desc"
+  - "target_signature_asc"
+  - "source_signature_asc"

@@ -1,0 +1,220 @@
+schema_version: "1.0.0"
+mapping_id: "tasa_droid_semantic_mapping_v1"
+mapping_mode: "new_curated_high_confidence"
+description: "Conservative Android API role mapping created for the V6 protocol."
+principles:
+  - "This mapping assigns endpoint roles for graph truncation and compact semantic features."
+  - "Unmatched APIs remain unmapped; no name-only fallback is allowed."
+  - "A rule matches only when all specified class and method predicates hold."
+  - "Rules are deterministic and are evaluated in ascending rule_id order."
+  - "Context rules are evaluated only against their declared context, never against API signatures alone."
+normalization:
+  class_signature: "lowercase_descriptor_without_whitespace"
+  method_name: "lowercase_name_without_descriptor"
+  matching: "casefold_both_rule_patterns_and_observed_signatures"
+  descriptor_required_for_exact_match: false
+roles:
+  - command_execution
+  - dynamic_code_loading
+  - native_library_loading
+  - reflective_invocation
+  - package_installation
+  - package_uninstallation
+  - device_administration
+  - accessibility_control
+  - sms_send_receive
+  - call_control_or_recording
+  - account_or_credential_access
+  - contacts_or_calendar_access
+  - device_identifier_access
+  - location_access
+  - microphone_access
+  - camera_access
+  - clipboard_access
+  - network_transmission_or_upload
+  - sensitive_file_or_content_write
+  - boot_persistence
+  - task_or_alarm_scheduling
+  - background_service_control
+  - overlay_or_ui_deception
+  - icon_or_component_hiding
+  - process_or_wakelock_control
+  - cryptography
+  - encoding_or_compression
+  - url_or_http_setup
+  - file_read
+  - database_access
+  - other
+rules:
+  - rule_id: "R0001"
+    role: "command_execution"
+    confidence: 1.0
+    class_prefixes: ["Ljava/lang/Runtime;", "Ljava/lang/ProcessBuilder;"]
+    method_names: ["exec", "start", "startPipeline"]
+  - rule_id: "R0002"
+    role: "dynamic_code_loading"
+    confidence: 1.0
+    class_prefixes:
+      - "Ldalvik/system/DexClassLoader;"
+      - "Ldalvik/system/PathClassLoader;"
+      - "Ldalvik/system/InMemoryDexClassLoader;"
+      - "Ljava/lang/ClassLoader;"
+    method_names: ["loadClass", "defineClass"]
+  - rule_id: "R0003"
+    role: "native_library_loading"
+    confidence: 1.0
+    class_prefixes: ["Ljava/lang/System;", "Ljava/lang/Runtime;"]
+    method_names: ["load", "loadlibrary"]
+  - rule_id: "R0004"
+    role: "reflective_invocation"
+    confidence: 1.0
+    class_prefixes:
+      - "Ljava/lang/reflect/Method;"
+      - "Ljava/lang/reflect/Constructor;"
+      - "Ljava/lang/Class;"
+    method_names: ["invoke", "newinstance", "forname", "getmethod", "getdeclaredmethod"]
+  - rule_id: "R0005"
+    role: "package_installation"
+    confidence: 1.0
+    class_prefixes: ["Landroid/content/pm/PackageInstaller;"]
+    method_names: ["createSession", "openSession", "commit"]
+  - rule_id: "R0006"
+    role: "package_uninstallation"
+    confidence: 1.0
+    class_prefixes: ["Landroid/content/pm/PackageInstaller;", "Landroid/content/pm/PackageManager;"]
+    method_names: ["uninstall", "deletePackage"]
+  - rule_id: "R0007"
+    role: "device_administration"
+    confidence: 1.0
+    class_prefixes: ["Landroid/app/admin/DevicePolicyManager;"]
+    method_prefixes: ["set", "reset", "wipe", "lock", "removeActiveAdmin", "addActiveAdmin"]
+  - rule_id: "R0008"
+    role: "accessibility_control"
+    confidence: 1.0
+    class_prefixes: ["Landroid/accessibilityservice/AccessibilityService;", "Landroid/view/accessibility/"]
+    method_names: ["performGlobalAction", "dispatchGesture", "getRootInActiveWindow"]
+  - rule_id: "R0009"
+    role: "sms_send_receive"
+    confidence: 1.0
+    class_prefixes: ["Landroid/telephony/SmsManager;", "Landroid/provider/Telephony;"]
+    method_names: ["sendTextMessage", "sendMultipartTextMessage", "sendDataMessage", "getMessagesFromIntent"]
+  - rule_id: "R0010"
+    role: "call_control_or_recording"
+    confidence: 1.0
+    class_prefixes: ["Landroid/telecom/TelecomManager;", "Landroid/telephony/TelephonyManager;"]
+    method_names: ["placeCall", "acceptRingingCall", "endCall", "listen"]
+  - rule_id: "R0011"
+    role: "account_or_credential_access"
+    confidence: 1.0
+    class_prefixes: ["Landroid/accounts/AccountManager;", "Landroid/accounts/Account;"]
+    method_prefixes: ["getAccounts", "getAuthToken", "getUserData", "getPassword"]
+  - rule_id: "R0012"
+    role: "contacts_or_calendar_access"
+    confidence: 1.0
+    class_prefixes: ["Landroid/provider/ContactsContract;", "Landroid/provider/CalendarContract;"]
+    method_names: ["lookupContact", "openContactPhotoInputStream", "getLookupUri"]
+  - rule_id: "R0013"
+    role: "device_identifier_access"
+    confidence: 1.0
+    class_prefixes: ["Landroid/telephony/TelephonyManager;"]
+    method_names: ["getDeviceId", "getImei", "getMeid", "getSubscriberId", "getSimSerialNumber"]
+  - rule_id: "R0014"
+    role: "location_access"
+    confidence: 1.0
+    class_prefixes: ["Landroid/location/LocationManager;", "Landroid/location/Location;", "Lcom/google/android/gms/location/"]
+    method_names: ["getLastKnownLocation", "requestLocationUpdates", "getCurrentLocation", "getLatitude", "getLongitude"]
+  - rule_id: "R0015"
+    role: "microphone_access"
+    confidence: 1.0
+    class_prefixes: ["Landroid/media/AudioRecord;", "Landroid/media/MediaRecorder;"]
+    method_names: ["startRecording", "read", "setAudioSource", "start"]
+  - rule_id: "R0016"
+    role: "camera_access"
+    confidence: 1.0
+    class_prefixes: ["Landroid/hardware/Camera;", "Landroid/hardware/camera2/"]
+    method_names: ["open", "takePicture", "capture", "createCaptureRequest"]
+  - rule_id: "R0017"
+    role: "clipboard_access"
+    confidence: 1.0
+    class_prefixes: ["Landroid/content/ClipboardManager;", "Landroid/text/ClipboardManager;"]
+    method_names: ["getPrimaryClip", "setPrimaryClip", "hasPrimaryClip"]
+  - rule_id: "R0018"
+    role: "network_transmission_or_upload"
+    confidence: 1.0
+    class_prefixes:
+      - "Ljava/net/"
+      - "Ljavax/net/"
+      - "Lokhttp3/"
+      - "Lretrofit2/"
+      - "Lorg/apache/http/"
+    method_names: ["connect", "execute", "enqueue", "newCall", "getOutputStream", "send", "sendTo", "write"]
+  - rule_id: "R0019"
+    role: "sensitive_file_or_content_write"
+    confidence: 1.0
+    class_prefixes:
+      - "Ljava/io/FileOutputStream;"
+      - "Ljava/io/OutputStream;"
+      - "Ljava/nio/file/Files;"
+      - "Landroid/content/ContentResolver;"
+    method_names: ["write", "writeBytes", "writeChars", "writeUTF", "newOutputStream", "insert", "update"]
+  - rule_id: "R0020"
+    role: "boot_persistence"
+    confidence: 1.0
+    rule_kind: "manifest_context"
+    context_type: "intent_filter_action"
+    context_values: ["android.intent.action.BOOT_COMPLETED", "android.intent.action.LOCKED_BOOT_COMPLETED"]
+  - rule_id: "R0021"
+    role: "task_or_alarm_scheduling"
+    confidence: 1.0
+    class_prefixes: ["Landroid/app/AlarmManager;", "Landroidx/work/WorkManager;", "Landroid/app/job/JobScheduler;"]
+    method_names: ["set", "setExact", "setRepeating", "enqueue", "schedule"]
+  - rule_id: "R0022"
+    role: "background_service_control"
+    confidence: 1.0
+    class_prefixes: ["Landroid/content/Context;", "Landroid/app/Service;"]
+    method_names: ["startService", "startForegroundService", "stopService", "startForeground"]
+  - rule_id: "R0023"
+    role: "overlay_or_ui_deception"
+    confidence: 1.0
+    class_prefixes: ["Landroid/view/WindowManager;", "Landroid/view/Window;"]
+    method_names: ["addView", "updateViewLayout", "setType", "setFlags"]
+  - rule_id: "R0024"
+    role: "icon_or_component_hiding"
+    confidence: 1.0
+    class_prefixes: ["Landroid/content/pm/PackageManager;"]
+    method_names: ["setComponentEnabledSetting", "getComponentEnabledSetting"]
+  - rule_id: "R0025"
+    role: "process_or_wakelock_control"
+    confidence: 1.0
+    class_prefixes: ["Landroid/os/PowerManager;", "Landroid/os/Process;"]
+    method_names: ["newWakeLock", "acquire", "release", "killProcess"]
+  - rule_id: "R0026"
+    role: "cryptography"
+    confidence: 1.0
+    class_prefixes: ["Ljavax/crypto/", "Ljava/security/", "Landroid/security/keystore/"]
+    method_names: ["getInstance", "init", "doFinal", "generateKey", "sign", "verify"]
+  - rule_id: "R0027"
+    role: "encoding_or_compression"
+    confidence: 1.0
+    class_prefixes: ["Ljava/util/zip/", "Landroid/util/Base64;"]
+    method_names: ["compress", "decompress", "encode", "decode"]
+  - rule_id: "R0028"
+    role: "url_or_http_setup"
+    confidence: 1.0
+    class_prefixes: ["Ljava/net/URL;", "Ljava/net/URI;", "Lokhttp3/HttpUrl;"]
+    method_names: ["<init>", "parse", "newBuilder", "build"]
+  - rule_id: "R0029"
+    role: "file_read"
+    confidence: 1.0
+    class_prefixes:
+      - "Ljava/io/FileInputStream;"
+      - "Ljava/io/BufferedInputStream;"
+      - "Ljava/io/DataInputStream;"
+      - "Ljava/io/RandomAccessFile;"
+      - "Ljava/nio/file/Files;"
+    method_names: ["<init>", "read", "readFully", "readLine", "readUTF", "readAllBytes", "readAllLines", "newInputStream"]
+  - rule_id: "R0030"
+    role: "database_access"
+    confidence: 1.0
+    class_prefixes: ["Landroid/database/sqlite/SQLiteDatabase;", "Landroid/content/ContentResolver;"]
+    method_names: ["query", "rawQuery", "insert", "update", "delete", "execSQL", "openDatabase"]

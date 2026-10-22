@@ -1,0 +1,145 @@
+{
+  "status": "CAPTURED",
+  "assets": {
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/host_cfg_features.npz": {
+      "size": 4533338,
+      "sha256": "09a890fd3a62a6e5b26f101c09a640025f65d2cec760d3951a58486be152dfe9"
+    },
+    "/home/boyuanjie/projects/tasa-droid/artifacts/care-source-local-assets-v2/ego_1hop_regions_2017.npz": {
+      "size": 4420592,
+      "sha256": "117b72218359a6c40e0c7dda77fb5d407504873be31b1c0961ec0534f3cf94e0"
+    },
+    "/home/boyuanjie/projects/tasa-droid/artifacts/care-droid-formal-diagnostics-v1/cache/endpoint_cache_2788.jsonl.gz": {
+      "size": 14643186,
+      "sha256": "68d7121bb356d3247f9982d81a6553262fbb991e5438b51fc47f81521fb56ff5"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/protocol.json": {
+      "size": 870,
+      "sha256": "2080ae71dcf2cae7dbd19cb06349aacf86c14544ae3fcbcdace5a63006965a96"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/baseline_integrity_check.json": {
+      "size": 184,
+      "sha256": "145563d11bf563fa272db7694dfda8ee66d3274dc5eb098ec3160e320e0a1f94"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S1/900000/M0_REPRODUCED.pkl": {
+      "size": 211020,
+      "sha256": "e2adb6be7a7bd3f5259c0e1b4eb1077d0176ae41bba175faf32aa18508012cfa"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S1/900000/H1_HOST_BOUND_CFG.pkl": {
+      "size": 23015,
+      "sha256": "bae347906295b358d04e682cd2170393b47c38390a048a04b834a8d6e1e8dde0"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S1/900001/M0_REPRODUCED.pkl": {
+      "size": 211020,
+      "sha256": "08c049bcb3af728481095aab89a28c832b1c301f20a77f193a844cf10f6f5885"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S1/900001/H1_HOST_BOUND_CFG.pkl": {
+      "size": 23015,
+      "sha256": "c227f18ea5b2578f64dd13429912f1fcd21ef0d5171f189ef600115e140602b2"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S1/900002/M0_REPRODUCED.pkl": {
+      "size": 211020,
+      "sha256": "c8bbccb5407e537a800c5f73308bd654b359ef8ac16424d6a0e1b016e0349cdb"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S1/900002/H1_HOST_BOUND_CFG.pkl": {
+      "size": 23015,
+      "sha256": "d435ef8be2e59434d6730ea2381e86689cb7e4d4dd9f78b5a4477ff69f31b44d"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S2/900000/M0_REPRODUCED.pkl": {
+      "size": 211020,
+      "sha256": "4b590f953b168dd07f9a993bd84141c4ecbefa431c0d466d30c3893bea278bad"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S2/900000/H1_HOST_BOUND_CFG.pkl": {
+      "size": 23015,
+      "sha256": "54b6216aeab55de458b06bbc31fcd73088f619913bbab5d15264a2816e9ec2ec"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S2/900001/M0_REPRODUCED.pkl": {
+      "size": 211020,
+      "sha256": "5844cb42267baa827930bbf485dde77df9b5454d4e60f8643e7a16619d6db209"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S2/900001/H1_HOST_BOUND_CFG.pkl": {
+      "size": 23015,
+      "sha256": "c1a762b2f05f72236d119123f440911add60250e557b93bcb905988726854a05"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S2/900002/M0_REPRODUCED.pkl": {
+      "size": 211020,
+      "sha256": "ff3657e4fac381a57f90f8c67bc066696237fff7152e2efe327ccce07f6964f0"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S2/900002/H1_HOST_BOUND_CFG.pkl": {
+      "size": 23015,
+      "sha256": "3ac3d085f8fb3f4d2235b0ebca427b39d6e7880fb0bb99e839f797a0e0d8ad41"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S3/900000/M0_REPRODUCED.pkl": {
+      "size": 211020,
+      "sha256": "2fab5e56c48b5275456877c0b6df293a71be9604da40536eb83e427c266e2d01"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S3/900000/H1_HOST_BOUND_CFG.pkl": {
+      "size": 23015,
+      "sha256": "61bb3e9c0f599ca1ae7335772bd553a88c517585e5cdf926e4d3e35717398ad6"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S3/900001/M0_REPRODUCED.pkl": {
+      "size": 211020,
+      "sha256": "4e70fce3fa89912f83e632094efaf4c50209239dfa5b2da61e8feb836341b04e"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S3/900001/H1_HOST_BOUND_CFG.pkl": {
+      "size": 23015,
+      "sha256": "1352964146fdd5991533c801c2649d4cc2e2b8ddc55a4759ffbe203ac379d50d"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S3/900002/M0_REPRODUCED.pkl": {
+      "size": 211020,
+      "sha256": "0a58c0c64b9001739e26ec71f677c3a1c1159772c90e8cba1e24aa3bf5b0a7fa"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S3/900002/H1_HOST_BOUND_CFG.pkl": {
+      "size": 23015,
+      "sha256": "c7769c71c581da27400dbcea9f12b76e432d370b6e1b463822e91937940e7efa"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S4/900000/M0_REPRODUCED.pkl": {
+      "size": 211020,
+      "sha256": "b495f69b11b3f42b98a3809a4a092d7c102e776f5d8def15fe76abf6fbb2257f"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S4/900000/H1_HOST_BOUND_CFG.pkl": {
+      "size": 23015,
+      "sha256": "5dbe14b351ce1037127d634e34f0de5a35c52b0d8980f5426640d8ecb26f9cbc"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S4/900001/M0_REPRODUCED.pkl": {
+      "size": 211020,
+      "sha256": "e3b5f060e7292e16d8cd1e3dba03f6e2b3f1cd0a3dd839e038c87e1b3c415eab"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S4/900001/H1_HOST_BOUND_CFG.pkl": {
+      "size": 23015,
+      "sha256": "f56edf9ee3154efaed29828246abbd0a9084f063e122ea5b8af72857e4ec1d9d"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S4/900002/M0_REPRODUCED.pkl": {
+      "size": 211020,
+      "sha256": "284c12317a21c437b6a944b8a12a846eaf57df02f25d4153b220ce713dfa7aaa"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S4/900002/H1_HOST_BOUND_CFG.pkl": {
+      "size": 23015,
+      "sha256": "4930f107f0a0a76ebb9a1386c990b7fe44bbe10727245d88692a7f03f2d23911"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S5/900000/M0_REPRODUCED.pkl": {
+      "size": 210921,
+      "sha256": "b509cee5fd2999ff125a4f6c6df6e9bb94186ff4cb235c605ed0d6434f9cf470"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S5/900000/H1_HOST_BOUND_CFG.pkl": {
+      "size": 22937,
+      "sha256": "0f02895f7e7ab31e189d1cead501ba7e2b440d6fa6ee9390c5cf4ddf0b0df53b"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S5/900001/M0_REPRODUCED.pkl": {
+      "size": 210921,
+      "sha256": "fa53835d5b3062283b4b0389c9f47446d37cedaa48f2ca1fa62ecd4cf0d88fb9"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S5/900001/H1_HOST_BOUND_CFG.pkl": {
+      "size": 22937,
+      "sha256": "f6ddbb40f5a01f635502ae58640107efdaf1529c0fa1f31ab4208f73c17c099e"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S5/900002/M0_REPRODUCED.pkl": {
+      "size": 210921,
+      "sha256": "766ea1ed915092fca579671f764e8d7c71e511cea667ed3da3a48ef60bd257fc"
+    },
+    "/home/boyuanjie/projects/tasa-droid/outputs/care_host_bound_cfg_source_future_v3/models/S5/900002/H1_HOST_BOUND_CFG.pkl": {
+      "size": 22937,
+      "sha256": "28cef132798f01f054d8bbefe72efa9360e24d5a4846163179d867630a95488e"
+    }
+  }
+}

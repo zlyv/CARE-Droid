@@ -1,0 +1,77 @@
+version: "1.0.0"
+name: "TASA-Droid high-confidence semantic edge mapping"
+principle: "Only class-and-method constrained API targets receive ICC or reflection flags; unmatched edges remain DIRECT_CALL."
+matching:
+  class_signature: "lowercase_descriptor_without_whitespace"
+  method_name: "lowercase_name_without_descriptor"
+  no_name_only_fallback: true
+edge_rules:
+  - rule_id: "ICC001"
+    edge_type: "ICC_COMPONENT_DISPATCH"
+    flag: "icc_any"
+    confidence: 1.0
+    class_prefixes:
+      - "Landroid/content/Context;"
+      - "Landroid/app/Activity;"
+      - "Landroid/app/Service;"
+    method_names:
+      - "startActivity"
+      - "startActivityForResult"
+      - "startActivityIfNeeded"
+      - "startNextMatchingActivity"
+      - "startService"
+      - "startForegroundService"
+      - "bindService"
+      - "unbindService"
+      - "sendBroadcast"
+      - "sendOrderedBroadcast"
+      - "sendStickyBroadcast"
+      - "sendBroadcastAsUser"
+      - "registerReceiver"
+      - "unregisterReceiver"
+  - rule_id: "ICC002"
+    edge_type: "ICC_PENDING_INTENT"
+    flag: "icc_any"
+    confidence: 1.0
+    class_prefixes:
+      - "Landroid/app/PendingIntent;"
+    method_names:
+      - "getActivity"
+      - "getActivities"
+      - "getBroadcast"
+      - "getService"
+      - "getForegroundService"
+  - rule_id: "ICC003"
+    edge_type: "ICC_CONTENT_PROVIDER"
+    flag: "icc_any"
+    confidence: 1.0
+    class_prefixes:
+      - "Landroid/content/ContentResolver;"
+    method_names:
+      - "query"
+      - "insert"
+      - "update"
+      - "delete"
+      - "call"
+      - "openFileDescriptor"
+      - "openInputStream"
+      - "openOutputStream"
+  - rule_id: "REF001"
+    edge_type: "REFLECTION_INVOKE"
+    flag: "reflection_any"
+    confidence: 1.0
+    class_prefixes:
+      - "Ljava/lang/Class;"
+      - "Ljava/lang/reflect/Method;"
+      - "Ljava/lang/reflect/Constructor;"
+      - "Ljava/lang/reflect/Field;"
+    method_names:
+      - "forName"
+      - "getMethod"
+      - "getDeclaredMethod"
+      - "getConstructor"
+      - "getDeclaredConstructor"
+      - "newInstance"
+      - "invoke"
+      - "get"
+      - "set"

@@ -1,0 +1,19 @@
+{
+  "package_id": "care-obcbc-source-v1-r1-stage-b-static-only",
+  "research_stage": "B_STATIC_ASSET_FEASIBILITY_AUDIT",
+  "requires_stage_a_status": "NOVELTY_PLAUSIBLE",
+  "static_only": true,
+  "labels_used": false,
+  "future_rows_loaded": 0,
+  "dynamic_execution": false,
+  "software_installation": false,
+  "formal_asset_writes": false,
+  "source_scope": "2017 formal DI25 routed 200",
+  "reuses": [
+    "care-fullgraph-trcbe-v2/full_graph_cache",
+    "formal endpoint Host cache",
+    "formal C43 attention",
+    "frozen TRCBE root taxonomy"
+  ],
+  "scientific_stop": "No labels, direction model, end-to-end correction or future diagnostics are included."
+}

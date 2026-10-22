@@ -1,0 +1,13 @@
+{
+  "name": "care-pasea-audit-v1",
+  "version": "1.0.0",
+  "scope": "PASEA historical-equivalence and verified-TPL/Owner observability audit only",
+  "forbidden": [
+    "model training",
+    "fixed/broken label probe before observability passes",
+    "future data loading",
+    "treating third-party code as benign",
+    "falling back to cross-APK commonness as exact TPL identity"
+  ],
+  "expected_output": "/home/boyuanjie/projects/tasa-droid/outputs/care-pasea-audit-v1"
+}

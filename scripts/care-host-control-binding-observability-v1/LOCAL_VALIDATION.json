@@ -1,0 +1,24 @@
+{
+  "status": "LOCAL_IMPLEMENTATION_TESTS_PASS",
+  "date": "2026-10-14",
+  "python": "D:/anaconda/envs/maskdroid/python.exe",
+  "numpy": "1.26.4",
+  "unit_tests_passed": 22,
+  "randomized_invariant_trials": 50,
+  "syntax_and_protocol_json": "PASS",
+  "shell_LF_no_BOM": "PASS",
+  "shell_executed_on_linux": false,
+  "integration_fixture_rows_per_mode": 799,
+  "integration_modes": {
+    "heterogeneous": "HOST_CONTROL_BINDING_OBSERVABLE; integrity PASS",
+    "homogeneous": "HOST_CONTROL_BINDING_COVERAGE_INSUFFICIENT; integrity PASS",
+    "missing_input": "HOST_CONTROL_BINDING_BLOCKED; no sample exclusions"
+  },
+  "existing_output_refusal_test": "PASS",
+  "fixtures_are_synthetic": true,
+  "real_server_audit_executed": false,
+  "real_binding_coverage_known": false,
+  "model_trained": false,
+  "future_rows_loaded": 0,
+  "validation_boundary": "Local tests validate implementation and stopping behavior, not scientific efficacy. Real cached-data coverage must be measured on the server. No runtime or accuracy claim is derived from the synthetic fixtures."
+}

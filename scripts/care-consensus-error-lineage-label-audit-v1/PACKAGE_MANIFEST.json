@@ -1,0 +1,14 @@
+{
+  "package": "care-consensus-error-lineage-label-audit-v1",
+  "revision": "r2",
+  "scope": "2017-2021 cross-model consensus-error software-lineage and label-consistency audit",
+  "writes": [
+    "outputs/care-consensus-error-lineage-label-audit-v1",
+    "outputs/care-consensus-error-lineage-label-audit-v1.console.log"
+  ],
+  "formal_model_changed": false,
+  "formal_dataset_changed": false,
+  "future_used_for_selection": false,
+  "gpu_required": false,
+  "resumable": true
+}
