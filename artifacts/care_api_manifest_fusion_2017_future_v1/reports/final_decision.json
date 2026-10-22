@@ -1,0 +1,26 @@
+{
+  "direction_decisions": {
+    "api_endpoint": false,
+    "api_family": false,
+    "joint": false,
+    "manifest": false
+  },
+  "future_average_BA": {
+    "A0_API_STATS": 0.8943460815135644,
+    "A1_API_FAMILY": 0.8943523946448776,
+    "A2_API_ENDPOINT": 0.8943460815135644,
+    "A3_API_SHUFFLE": 0.8937210815135644,
+    "AM1_FAMILY_MANIFEST": 0.8949773946448776,
+    "AM2_ENDPOINT_MANIFEST": 0.8951883651090127,
+    "B0_W0": 0.8957087067160376,
+    "C0_CODE_CAPACITY": 0.8943523946448776,
+    "M1_MANIFEST_FUSION": 0.8952914649966364,
+    "M2_CAPACITY": 0.8943523946448776,
+    "M2_MANIFEST_SHUFFLE": 0.8945586341758659
+  },
+  "future_development_only": true,
+  "future_used_for_selection": false,
+  "source_2017_primary": true,
+  "status": "NO_SUPPORTED_GAIN_2017_OOF",
+  "supported_statuses": []
+}

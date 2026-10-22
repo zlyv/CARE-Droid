@@ -1,0 +1,435 @@
+{
+  "arms": [
+    "B0_W0",
+    "C0_CODE_CAPACITY",
+    "A0_API_STATS",
+    "A1_API_FAMILY",
+    "A2_API_ENDPOINT",
+    "A3_API_SHUFFLE",
+    "M1_MANIFEST_FUSION",
+    "M2_CAPACITY",
+    "M2_MANIFEST_SHUFFLE",
+    "AM1_FAMILY_MANIFEST",
+    "AM2_ENDPOINT_MANIFEST"
+  ],
+  "future_labels_used_for_training_or_selection": false,
+  "future_years": [
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "model_checkpoints": [
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900000/A0_API_STATS.pkl",
+      "sha256": "8ab5fbbd4100d0ddc3e4d5cfc07b019c87741bd987fd25b07eeb121454477c4a",
+      "size": 318835
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900000/A1_API_FAMILY.pkl",
+      "sha256": "531afafe6125077114c53580e4314a84c47fedcee3a2653c3cc2054976b11d76",
+      "size": 323270
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900000/A2_API_ENDPOINT.pkl",
+      "sha256": "f3606c4889e39aba451fc2cb74ccf84e7bb628005442061448ab6201e1b979bd",
+      "size": 341057
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900000/A3_API_SHUFFLE.pkl",
+      "sha256": "52db76d24f58509e120f4d7ae7d7038ddfa87fa2dbd04afef99f2af0163a963a",
+      "size": 341743
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900000/AM1_FAMILY_MANIFEST.pkl",
+      "sha256": "c750c73a2e1e95ce969dcb13b04cfe39c483298e4ea0f3eabddc77d136196d96",
+      "size": 329127
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900000/AM2_ENDPOINT_MANIFEST.pkl",
+      "sha256": "8e18be37ae12f5a75fecdd21ce3163c8b572bed9c42c41a5437e2461113a6a49",
+      "size": 346914
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900000/C0_CODE_CAPACITY.pkl",
+      "sha256": "17268d3e77f0bb7305c8a95d172d1b924ba312d40a46f50da5693bc244759536",
+      "size": 317774
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900000/M1_MANIFEST_FUSION.pkl",
+      "sha256": "0f92e5bacd54fa4114aa878c08940793cb1946a4a6907dd34128440c48f59434",
+      "size": 323632
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900000/M2_CAPACITY.pkl",
+      "sha256": "c9b2cd2f39712a4ba0d356889294ab28412d5619a5b2478d9b3bdbc11f50a7ad",
+      "size": 317769
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900000/M2_MANIFEST_SHUFFLE.pkl",
+      "sha256": "22c52360496f4f9d43d306c9725557b308c3d297a4891067382f5cff741567cc",
+      "size": 323775
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900001/A0_API_STATS.pkl",
+      "sha256": "efe5b25b7f8149138c0ebe7c92452dfba886fb9ed932c06906dfcdda21036b5d",
+      "size": 318835
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900001/A1_API_FAMILY.pkl",
+      "sha256": "75c757d2da0bed70658dc794473fd057403e1b528ccd28d3fc56f9153fd16c85",
+      "size": 323270
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900001/A2_API_ENDPOINT.pkl",
+      "sha256": "e5a8942e1283d2e133c3d591bc00126d8a54fda6f83e19df8bcfd34ae6ff5e08",
+      "size": 341057
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900001/A3_API_SHUFFLE.pkl",
+      "sha256": "bda483b67c890026b97596a10df8ceaa2d59bff673ddd18faa21b6b8fc58aceb",
+      "size": 341743
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900001/AM1_FAMILY_MANIFEST.pkl",
+      "sha256": "0972e989dc7d6c0e85115f40e0cf2f2f0a13894923e5698c380c0703cbcc97b2",
+      "size": 329127
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900001/AM2_ENDPOINT_MANIFEST.pkl",
+      "sha256": "9e94b372e9724b295d82ded751f75149e88da0d49aa534f3e9d291a220bcb353",
+      "size": 346914
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900001/C0_CODE_CAPACITY.pkl",
+      "sha256": "5ffdede2e0e4164bf79ea880eeed4c428150e46354ddf880ca715badba26f113",
+      "size": 317774
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900001/M1_MANIFEST_FUSION.pkl",
+      "sha256": "56d3d377b56590a2b047c5bd2587377e15d6bc0a20e8268e8a93c744a4f3e440",
+      "size": 323632
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900001/M2_CAPACITY.pkl",
+      "sha256": "6f75a07a4f5a507bb01389f04bd1c1ed9681948a9ae98ebdc511b7b27c8ba6b1",
+      "size": 317769
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900001/M2_MANIFEST_SHUFFLE.pkl",
+      "sha256": "74f9f754d45329c9c3f7576c493fb053ddeec1269b8ea5e313e2ca2216f45af2",
+      "size": 323775
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900002/A0_API_STATS.pkl",
+      "sha256": "1fee24145441d2faf14496fc293c0f00fab9cded48ea43a2f06371c836eca78d",
+      "size": 318835
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900002/A1_API_FAMILY.pkl",
+      "sha256": "80824711c9ba4561b7bce1d23d81dd9639c8cba521602a342936c4c9f6f54e8d",
+      "size": 323270
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900002/A2_API_ENDPOINT.pkl",
+      "sha256": "7b98b74fa807d0cdd9a1878a0d9746a8a4ad837aa3f3afdc0232751b4201db99",
+      "size": 341057
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900002/A3_API_SHUFFLE.pkl",
+      "sha256": "22f94fea11fbc1346131e1e6fea11b6c74de20ab0d33ec5aee05698a67e14210",
+      "size": 341743
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900002/AM1_FAMILY_MANIFEST.pkl",
+      "sha256": "9a2218ddef01390ee74fd2cc8ef895bfb198307b75ab5a92e417c38da7ea7c19",
+      "size": 329127
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900002/AM2_ENDPOINT_MANIFEST.pkl",
+      "sha256": "7f3fc76a9b12a7289f07d5c18e995574bd577123fb5c3f81855200664376bcd8",
+      "size": 346914
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900002/C0_CODE_CAPACITY.pkl",
+      "sha256": "2f82b45de642e913a482f29593ccfa68d7cea92ef3fff723ed34a598df607cd2",
+      "size": 317774
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900002/M1_MANIFEST_FUSION.pkl",
+      "sha256": "80cbbcaf0e848fec9bed33da0c066adb27a6966302b4a5e563f084d0d54831bc",
+      "size": 323632
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900002/M2_CAPACITY.pkl",
+      "sha256": "dc37c7f70d83f8e0111a14f9cf6ba8fad4fcb4085cc9c8bd5d05b10e3f29363a",
+      "size": 317769
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care_api_manifest_fusion_2017_future_v1/models/T1/900002/M2_MANIFEST_SHUFFLE.pkl",
+      "sha256": "c741e9766bff0d0c4cd803a7320add3440f5fb8a4ccc94a72c62b51a392286b6",
+      "size": 323775
+    }
+  ],
+  "router_frozen": true,
+  "source_decision": {
+    "baseline_W0_BA": 0.9194653299916458,
+    "comparisons": [
+      {
+        "BA_difference": 0.0008364661654135519,
+        "Net_Fixed_difference": 0.6666666666666679,
+        "bootstrap_mean": 0.0007635401002506282,
+        "candidate": "A1_API_FAMILY",
+        "ci95_high": 0.006265664160401048,
+        "ci95_low": -0.005012531328320747,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "A1_vs_B0",
+        "p_holm": 1.0,
+        "p_two_sided": 0.8413333333333334,
+        "reference": "B0_W0",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": 0.0,
+        "Net_Fixed_difference": 0.0,
+        "bootstrap_mean": 0.0,
+        "candidate": "A1_API_FAMILY",
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "A1_vs_C0",
+        "p_holm": 1.0,
+        "p_two_sided": 1.0,
+        "reference": "C0_CODE_CAPACITY",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": 0.0012531328320802837,
+        "Net_Fixed_difference": 1.0,
+        "bootstrap_mean": 0.0011729323308270667,
+        "candidate": "A1_API_FAMILY",
+        "ci95_high": 0.003759398496240629,
+        "ci95_low": 0.0,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "A1_vs_API_STATS",
+        "p_holm": 1.0,
+        "p_two_sided": 0.748,
+        "reference": "A0_API_STATS",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": 0.0008364661654135519,
+        "Net_Fixed_difference": 0.6666666666666679,
+        "bootstrap_mean": 0.0008554156223893072,
+        "candidate": "A2_API_ENDPOINT",
+        "ci95_high": 0.006265664160401031,
+        "ci95_low": -0.00417606516290725,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "A2_vs_B0",
+        "p_holm": 1.0,
+        "p_two_sided": 0.8546666666666667,
+        "reference": "B0_W0",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": 0.0,
+        "Net_Fixed_difference": 0.0,
+        "bootstrap_mean": 0.0,
+        "candidate": "A2_API_ENDPOINT",
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "A2_vs_A1",
+        "p_holm": 1.0,
+        "p_two_sided": 1.0,
+        "reference": "A1_API_FAMILY",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": 0.0012531328320802837,
+        "Net_Fixed_difference": 1.0,
+        "bootstrap_mean": 0.0012272347535505425,
+        "candidate": "A2_API_ENDPOINT",
+        "ci95_high": 0.003759398496240666,
+        "ci95_low": 0.0,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "A2_vs_A3",
+        "p_holm": 1.0,
+        "p_two_sided": 0.752,
+        "reference": "A3_API_SHUFFLE",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": 0.0012531328320802837,
+        "Net_Fixed_difference": 1.0,
+        "bootstrap_mean": 0.0012222222222222213,
+        "candidate": "A2_API_ENDPOINT",
+        "ci95_high": 0.003759398496240629,
+        "ci95_low": 0.0,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "A2_vs_API_STATS",
+        "p_holm": 1.0,
+        "p_two_sided": 0.728,
+        "reference": "A0_API_STATS",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": 0.0,
+        "Net_Fixed_difference": 0.0,
+        "bootstrap_mean": 0.0,
+        "candidate": "A2_API_ENDPOINT",
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "A2_vs_C0",
+        "p_holm": 1.0,
+        "p_two_sided": 1.0,
+        "reference": "C0_CODE_CAPACITY",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": -0.0004166666666667318,
+        "Net_Fixed_difference": -0.33333333333333215,
+        "bootstrap_mean": -0.00039833333333333366,
+        "candidate": "M1_MANIFEST_FUSION",
+        "ci95_high": 0.00459586466165407,
+        "ci95_low": -0.005429197994987499,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "M1_vs_B0",
+        "p_holm": 1.0,
+        "p_two_sided": 0.9346666666666666,
+        "reference": "B0_W0",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": -0.0012531328320802837,
+        "Net_Fixed_difference": -1.0,
+        "bootstrap_mean": -0.0012873851294903928,
+        "candidate": "M1_MANIFEST_FUSION",
+        "ci95_high": 0.0,
+        "ci95_low": -0.003759398496240703,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "M1_vs_C0",
+        "p_holm": 1.0,
+        "p_two_sided": 0.7013333333333334,
+        "reference": "C0_CODE_CAPACITY",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": -0.0012531328320802837,
+        "Net_Fixed_difference": -1.0,
+        "bootstrap_mean": -0.0012573099415204678,
+        "candidate": "M1_MANIFEST_FUSION",
+        "ci95_high": 0.0,
+        "ci95_low": -0.003759398496240666,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "M1_vs_M2_CAPACITY",
+        "p_holm": 1.0,
+        "p_two_sided": 0.744,
+        "reference": "M2_CAPACITY",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": -0.0016697994987469045,
+        "Net_Fixed_difference": -1.3333333333333321,
+        "bootstrap_mean": -0.0016272096908939008,
+        "candidate": "M1_MANIFEST_FUSION",
+        "ci95_high": 0.0,
+        "ci95_low": -0.005009398496240585,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "M1_vs_M2_SHUFFLE",
+        "p_holm": 1.0,
+        "p_two_sided": 0.2786666666666667,
+        "reference": "M2_MANIFEST_SHUFFLE",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": -0.0012531328320802837,
+        "Net_Fixed_difference": -1.0,
+        "bootstrap_mean": -0.0013258145363408533,
+        "candidate": "AM1_FAMILY_MANIFEST",
+        "ci95_high": 0.0,
+        "ci95_low": -0.005012531328320711,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "AM1_vs_A1",
+        "p_holm": 1.0,
+        "p_two_sided": 0.6826666666666666,
+        "reference": "A1_API_FAMILY",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": 0.0,
+        "Net_Fixed_difference": 0.0,
+        "bootstrap_mean": 0.0,
+        "candidate": "AM1_FAMILY_MANIFEST",
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "AM1_vs_M1",
+        "p_holm": 1.0,
+        "p_two_sided": 1.0,
+        "reference": "M1_MANIFEST_FUSION",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": 0.0,
+        "Net_Fixed_difference": 0.0,
+        "bootstrap_mean": -2.9239766081871556e-05,
+        "candidate": "AM2_ENDPOINT_MANIFEST",
+        "ci95_high": 0.003759398496240592,
+        "ci95_low": -0.003759398496240592,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "AM2_vs_A2",
+        "p_holm": 1.0,
+        "p_two_sided": 1.0,
+        "reference": "A2_API_ENDPOINT",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": 0.0012531328320802837,
+        "Net_Fixed_difference": 1.0,
+        "bootstrap_mean": 0.0012564745196324146,
+        "candidate": "AM2_ENDPOINT_MANIFEST",
+        "ci95_high": 0.0037593984962406854,
+        "ci95_low": 0.0,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "AM2_vs_M1",
+        "p_holm": 1.0,
+        "p_two_sided": 0.7546666666666667,
+        "reference": "M1_MANIFEST_FUSION",
+        "repeats": 1500
+      },
+      {
+        "BA_difference": 0.0012531328320802837,
+        "Net_Fixed_difference": 1.0,
+        "bootstrap_mean": 0.001258145363408522,
+        "candidate": "AM2_ENDPOINT_MANIFEST",
+        "ci95_high": 0.003759398496240666,
+        "ci95_low": 0.0,
+        "cluster_unit": "independent APK; class stratified",
+        "comparison": "AM2_vs_AM1",
+        "p_holm": 1.0,
+        "p_two_sided": 0.7066666666666667,
+        "reference": "AM1_FAMILY_MANIFEST",
+        "repeats": 1500
+      }
+    ],
+    "directions": {
+      "api_endpoint": false,
+      "api_family": false,
+      "joint": false,
+      "manifest": false
+    },
+    "future_used_for_selection": false,
+    "selection_years": [
+      2017
+    ],
+    "status": "NO_SUPPORTED_GAIN_2017_OOF",
+    "supported_statuses": []
+  },
+  "stage1_frozen": true,
+  "status": "FROZEN_BEFORE_FUTURE_LABEL_EVALUATION",
+  "training_years": [
+    2017
+  ]
+}

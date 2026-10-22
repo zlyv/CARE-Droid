@@ -1,0 +1,197 @@
+{
+  "APK_files_opened": 0,
+  "formal_assets": [
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_multiyear_development_v1/data.npz",
+      "sha256": "e82bdbaa27b924b6103abd95926fd9652a9c183bc1b1c2da61a8a321e4659484",
+      "size": 4590391
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_multiyear_development_v1/feature_rows.pkl",
+      "sha256": "733c9637d620fe59dbfdc083e03210541adf8c33867c98d735d699ebd29006c3",
+      "size": 2776270
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_multiyear_development_v1/dataset_audit.json",
+      "sha256": "e30e31fe2bc3578f46daca9e0bf956dc1b7e1153e4a715dd10fc86dd1639f463",
+      "size": 3703
+    },
+    {
+      "path": "/mnt/HDD1/boyuanjie/tasa-droid-storage/care-source-local-assets-v2/endpoint_centered_tensor_cache_2017.jsonl.gz",
+      "sha256": "a12231d133e9d9100f11a18c4e76d3f44381c8e71205d96f562330c981e79f24",
+      "size": 3975289
+    },
+    {
+      "path": "/mnt/HDD1/boyuanjie/tasa-droid-storage/care-future-local-assets-v2/endpoint_centered_tensor_cache_2018_2021.jsonl.gz",
+      "sha256": "423969c8d938b8f806402e6b32c1f0b7a768a93bbcfb6870b351e33cb2376b67",
+      "size": 10667907
+    },
+    {
+      "path": "/mnt/HDD1/boyuanjie/tasa-droid-storage/care-source-local-assets-v2/source_lineage_2017.csv",
+      "sha256": "9bcd05e3872d559b838040b0c952ab1d6ab2044718d47597fc8d3483a44a8043",
+      "size": 260545
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/artifacts/care-litelocal-p31-diagnostics-v1/preflight/future_lineage_label_free.csv",
+      "sha256": "86db6703fa135aad56bdd5467ab1716a17ba58b51809a6b5c723515d27c837b1",
+      "size": 472442
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/scripts/care-source-recovery-stage2only-v1/extractor_repo/configs/protocol/semantic_mapping_v1.yaml",
+      "sha256": "5b6e7dcfb3f2f17bbf506a7d9b2a18f2a38dcfb9205d5f79f4b3b0b6fc098bc5",
+      "size": 9291
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_manifest_rf_autonomous_error_router_v1/per_apk_predictions.csv.gz",
+      "sha256": "9bb5d2bc29ca5790c929fa98de46fbe33a0d5f50d57b9949bdf03131fe8a7e35",
+      "size": 826465
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_manifest_rf_autonomous_error_router_v1/protocol.json",
+      "sha256": "5ae6ef4b6beaaf614eeefbb8e0758977f4089efde256dac7bacc427dd10c9c66",
+      "size": 732
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_manifest_rf_autonomous_error_router_v1/asset_integrity_check.json",
+      "sha256": "c414272f23b358ed40fc3221b356c9c5fe75dc2a9f82a2c11e3050130c3a352d",
+      "size": 14083
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_manifest_four_member_disagreement_v1/run_20261019_pilot01/asset_integrity_check.json",
+      "sha256": "d49f5ac55dbb0b053ff19e7a74ccc6db58b9a345ee131bddb4de51ec486fddd6",
+      "size": 235
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/scripts/care-background-functional-attribution-v1/bfa_core.py",
+      "sha256": "abdfec115dbcc869bed76693210e7cfadd967f8db6a9cadeef315bfff289e2fb",
+      "size": 12939
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/scripts/care-lite-stage-v1/common.py",
+      "sha256": "48ee477c01635403a022ae51b27e0483f185eeac3997728ab3e057f11f681d8d",
+      "size": 6690
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/scripts/care-local-control-constraint-feasibility-v2/dex_adapter.py",
+      "sha256": "1de0180f64fc5c91317340365bce4b8fc8393eb71adab010bbc750ff16d27b41",
+      "size": 7044
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/scripts/care-api-manifest-fusion-2017-future-v1/common.py",
+      "sha256": "3d038f1669e5f1137ff280eeb1bccf1c6cf0b3f86a006dfa194e599ecfd91096",
+      "size": 18377
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/scripts/care-api-manifest-fusion-2017-future-v1/api_extract.py",
+      "sha256": "2bb5f65136758041ae3f70025659e842b4a64ce81e3fc0455f15739f30f49f53",
+      "size": 7395
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/scripts/care-api-manifest-fusion-2017-future-v1/model.py",
+      "sha256": "baccb4ec2cd49059eafae0be1f6e6623f16f8c0a81c83adf7deb3446e83aa3ac",
+      "size": 2981
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/scripts/care-api-manifest-fusion-2017-future-v1/run_experiment.py",
+      "sha256": "26c6334884b5411e6f526a185051a9a5a6bb7cc53d5d674dcfa63f5745c690a1",
+      "size": 24585
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/scripts/care-api-manifest-fusion-2017-future-v1/run_tmux.sh",
+      "sha256": "9a7ac647c391e2b083cc7d8624d10ff4f0b4e648cbb498ff61c47a55b4492c16",
+      "size": 1280
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S1/900000/M0_REPRODUCED.pkl",
+      "sha256": "e2adb6be7a7bd3f5259c0e1b4eb1077d0176ae41bba175faf32aa18508012cfa",
+      "size": 211020
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S1/900001/M0_REPRODUCED.pkl",
+      "sha256": "08c049bcb3af728481095aab89a28c832b1c301f20a77f193a844cf10f6f5885",
+      "size": 211020
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S1/900002/M0_REPRODUCED.pkl",
+      "sha256": "c8bbccb5407e537a800c5f73308bd654b359ef8ac16424d6a0e1b016e0349cdb",
+      "size": 211020
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S2/900000/M0_REPRODUCED.pkl",
+      "sha256": "4b590f953b168dd07f9a993bd84141c4ecbefa431c0d466d30c3893bea278bad",
+      "size": 211020
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S2/900001/M0_REPRODUCED.pkl",
+      "sha256": "5844cb42267baa827930bbf485dde77df9b5454d4e60f8643e7a16619d6db209",
+      "size": 211020
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S2/900002/M0_REPRODUCED.pkl",
+      "sha256": "ff3657e4fac381a57f90f8c67bc066696237fff7152e2efe327ccce07f6964f0",
+      "size": 211020
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S3/900000/M0_REPRODUCED.pkl",
+      "sha256": "2fab5e56c48b5275456877c0b6df293a71be9604da40536eb83e427c266e2d01",
+      "size": 211020
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S3/900001/M0_REPRODUCED.pkl",
+      "sha256": "4e70fce3fa89912f83e632094efaf4c50209239dfa5b2da61e8feb836341b04e",
+      "size": 211020
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S3/900002/M0_REPRODUCED.pkl",
+      "sha256": "0a58c0c64b9001739e26ec71f677c3a1c1159772c90e8cba1e24aa3bf5b0a7fa",
+      "size": 211020
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S4/900000/M0_REPRODUCED.pkl",
+      "sha256": "b495f69b11b3f42b98a3809a4a092d7c102e776f5d8def15fe76abf6fbb2257f",
+      "size": 211020
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S4/900001/M0_REPRODUCED.pkl",
+      "sha256": "e3b5f060e7292e16d8cd1e3dba03f6e2b3f1cd0a3dd839e038c87e1b3c415eab",
+      "size": 211020
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S4/900002/M0_REPRODUCED.pkl",
+      "sha256": "284c12317a21c437b6a944b8a12a846eaf57df02f25d4153b220ce713dfa7aaa",
+      "size": 211020
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S5/900000/M0_REPRODUCED.pkl",
+      "sha256": "b509cee5fd2999ff125a4f6c6df6e9bb94186ff4cb235c605ed0d6434f9cf470",
+      "size": 210921
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S5/900001/M0_REPRODUCED.pkl",
+      "sha256": "fa53835d5b3062283b4b0389c9f47446d37cedaa48f2ca1fa62ecd4cf0d88fb9",
+      "size": 210921
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/S5/900002/M0_REPRODUCED.pkl",
+      "sha256": "766ea1ed915092fca579671f764e8d7c71e511cea667ed3da3a48ef60bd257fc",
+      "size": 210921
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/T1/900000/M0_REPRODUCED.pkl",
+      "sha256": "72b37c708f338d6d9d14101b282d873e219c46a6477b9f589bbb9af64d36433b",
+      "size": 274398
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/T1/900001/M0_REPRODUCED.pkl",
+      "sha256": "8edf9c7a87d86f10e85aaa1b510e60fbe22087ecdc761a2d22bb3e5548e9b2a2",
+      "size": 274398
+    },
+    {
+      "path": "/home/boyuanjie/projects/tasa-droid/outputs/care_scbe_v1/models/T1/900002/M0_REPRODUCED.pkl",
+      "sha256": "3e72ac64435a303f3cc3ea6bd52df8f3c3e4cf7e361d56fd3f04f6734b61934f",
+      "size": 274398
+    }
+  ],
+  "frozen_host_count": 358914,
+  "frozen_view_count": 2788
+}

@@ -1,0 +1,27 @@
+{
+  "Host_alignment": "exact stable ID and frozen Host order",
+  "Host_definition": "direct caller of at least one frozen sensitive endpoint",
+  "Manifest135_shape": [
+    2788,
+    135
+  ],
+  "W0_model_seeds": [
+    900000,
+    900001,
+    900002
+  ],
+  "expected_W0_end_to_end_BA": 0.9194653299916458,
+  "future_counts": {
+    "2017": 799,
+    "2018": 793,
+    "2019": 399,
+    "2020": 397,
+    "2021": 400
+  },
+  "manifest_seeds": [
+    20261018,
+    20261019,
+    20261020
+  ],
+  "source_apks": 799
+}

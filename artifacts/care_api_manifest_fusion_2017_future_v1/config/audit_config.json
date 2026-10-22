@@ -1,0 +1,140 @@
+{
+  "api_dimension": 512,
+  "api_endpoint": "normalized full DEX method signature",
+  "api_family": "sorted role-set plus exact declaring class descriptor",
+  "api_shuffle": "within identical role-set, deterministic cyclic derangement when group size >1",
+  "api_stats_control": "six size/count statistics expanded by fixed label-free random features",
+  "api_vocabulary": "outer-train only; min document frequency 2; max 511 plus OOV",
+  "arms": [
+    "B0_W0",
+    "C0_CODE_CAPACITY",
+    "A0_API_STATS",
+    "A1_API_FAMILY",
+    "A2_API_ENDPOINT",
+    "A3_API_SHUFFLE",
+    "M1_MANIFEST_FUSION",
+    "M2_CAPACITY",
+    "M2_MANIFEST_SHUFFLE",
+    "AM1_FAMILY_MANIFEST",
+    "AM2_ENDPOINT_MANIFEST"
+  ],
+  "baseline": "frozen W0 Direct-C43",
+  "comparisons": [
+    [
+      "A1_API_FAMILY",
+      "B0_W0",
+      "A1_vs_B0"
+    ],
+    [
+      "A1_API_FAMILY",
+      "C0_CODE_CAPACITY",
+      "A1_vs_C0"
+    ],
+    [
+      "A1_API_FAMILY",
+      "A0_API_STATS",
+      "A1_vs_API_STATS"
+    ],
+    [
+      "A2_API_ENDPOINT",
+      "B0_W0",
+      "A2_vs_B0"
+    ],
+    [
+      "A2_API_ENDPOINT",
+      "A1_API_FAMILY",
+      "A2_vs_A1"
+    ],
+    [
+      "A2_API_ENDPOINT",
+      "A3_API_SHUFFLE",
+      "A2_vs_A3"
+    ],
+    [
+      "A2_API_ENDPOINT",
+      "A0_API_STATS",
+      "A2_vs_API_STATS"
+    ],
+    [
+      "A2_API_ENDPOINT",
+      "C0_CODE_CAPACITY",
+      "A2_vs_C0"
+    ],
+    [
+      "M1_MANIFEST_FUSION",
+      "B0_W0",
+      "M1_vs_B0"
+    ],
+    [
+      "M1_MANIFEST_FUSION",
+      "C0_CODE_CAPACITY",
+      "M1_vs_C0"
+    ],
+    [
+      "M1_MANIFEST_FUSION",
+      "M2_CAPACITY",
+      "M1_vs_M2_CAPACITY"
+    ],
+    [
+      "M1_MANIFEST_FUSION",
+      "M2_MANIFEST_SHUFFLE",
+      "M1_vs_M2_SHUFFLE"
+    ],
+    [
+      "AM1_FAMILY_MANIFEST",
+      "A1_API_FAMILY",
+      "AM1_vs_A1"
+    ],
+    [
+      "AM1_FAMILY_MANIFEST",
+      "M1_MANIFEST_FUSION",
+      "AM1_vs_M1"
+    ],
+    [
+      "AM2_ENDPOINT_MANIFEST",
+      "A2_API_ENDPOINT",
+      "AM2_vs_A2"
+    ],
+    [
+      "AM2_ENDPOINT_MANIFEST",
+      "M1_MANIFEST_FUSION",
+      "AM2_vs_M1"
+    ],
+    [
+      "AM2_ENDPOINT_MANIFEST",
+      "AM1_FAMILY_MANIFEST",
+      "AM2_vs_AM1"
+    ]
+  ],
+  "epochs": 40,
+  "fixed_budget": false,
+  "fusion": "frozen W0 logit plus zero-initialized equal-capacity residual head over frozen W0 113D, API512 and Manifest135",
+  "future_used_for_selection": false,
+  "future_years": [
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "manifest_control": "separate zero-capacity and row-binding shuffle controls",
+  "multiple_comparisons": "Holm over preregistered 2017 comparisons",
+  "optimizer": "AdamW lr=1e-3 weight_decay=1e-4",
+  "primary_arms": [
+    "B0_W0",
+    "A1_API_FAMILY",
+    "A2_API_ENDPOINT",
+    "A3_API_SHUFFLE",
+    "M1_MANIFEST_FUSION",
+    "M2_CAPACITY",
+    "AM1_FAMILY_MANIFEST",
+    "AM2_ENDPOINT_MANIFEST"
+  ],
+  "router": "autonomous Manifest error router P(error)>=0.5",
+  "source_protocol": "fixed five-fold OOF, three W0 seeds",
+  "stage1": "Manifest135 RF",
+  "status": "PRE_REGISTERED",
+  "support_rule": "positive 2017 OOF BA difference with APK-cluster class-stratified CI lower bound >0 against required semantic, shuffle and capacity controls",
+  "training_years": [
+    2017
+  ]
+}
