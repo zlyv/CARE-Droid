@@ -1,0 +1,26 @@
+{
+  "unit_tests_passed": 39,
+  "synthetic_pipeline_integration_tests_passed": 2,
+  "existing_repository_tests_passed": 18,
+  "checks": [
+    "Python modules parse",
+    "bash -n startup script",
+    "source-only boundary",
+    "frozen-router no-gain integration",
+    "cache resume and content integrity"
+  ],
+  "prior_cache_scope": {
+    "source_apks_with_command_calls": 361,
+    "frozen_command_hosts": 858,
+    "command_call_sites": 952
+  },
+  "real_APK_smoke_executed": false,
+  "actual_extraction_coverage_verified": false,
+  "classification_gain_verified": false,
+  "integration_limit": "Synthetic byte fixtures and decoded instructions; no actual APK parsing. Androguard/loguru inventory is mocked only in the no-target integration test.",
+  "server_inputs_required": [
+    "/mnt/HDD1/boyuanjie/tasa-droid-storage/care-source-local-assets-v2/source_lineage_2017.csv",
+    "Original APK paths referenced by that lineage"
+  ],
+  "protected_tracked_files_changed": false
+}

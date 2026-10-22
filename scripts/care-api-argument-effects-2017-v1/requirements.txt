@@ -1,0 +1,7 @@
+# Use an isolated environment if any dependency is absent; never upgrade the
+# server's existing tif environment as part of this experiment automatically.
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.2
+androguard>=4.1,<5
+loguru>=0.7
